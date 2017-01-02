@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/prang/Desktop/AppDontForget/build/Debug-iphonesimulator/Pods_AppDontForget.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-AppDontForget-umbrella.h",
+          'external-contents': "/Users/prang/Desktop/AppDontForget/Pods/Target Support Files/Pods-AppDontForget/Pods-AppDontForget-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_AppDontForget-Swift.h",
+          'external-contents': "/Users/prang/Desktop/AppDontForget/build/Debug-iphonesimulator/Pods_AppDontForget.framework/Headers/Pods_AppDontForget-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/prang/Desktop/AppDontForget/build/Debug-iphonesimulator/Pods_AppDontForget.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/prang/Desktop/AppDontForget/build/Pods.build/Debug-iphonesimulator/Pods-AppDontForget.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -116,10 +116,91 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UILabel;
+@class UIView;
+@class NSCoder;
+
+/**
+  A TextFieldEffects object is a control that displays editable text and contains the boilerplates to setup unique animations for text entrey and display. You typically use this class the same way you use UITextField.
+*/
+SWIFT_CLASS("_TtC13AppDontForget16TextFieldEffects")
+@interface TextFieldEffects : UITextField
+/**
+  UILabel that holds all the placeholder information
+*/
+@property (nonatomic, readonly, strong) UILabel * _Nonnull placeholderLabel;
+/**
+  Creates all the animations that are used to leave the textfield in the “entering text” state.
+*/
+- (void)animateViewsForTextEntry;
+/**
+  Creates all the animations that are used to leave the textfield in the “display input text” state.
+*/
+- (void)animateViewsForTextDisplay;
+/**
+  Draws the receiver’s image within the passed-in rectangle.
+  \param rect The portion of the view’s bounds that needs to be updated.
+
+*/
+- (void)drawViewsForRect:(CGRect)rect;
+- (void)updateViewsForBoundsChange:(CGRect)bounds;
+- (void)drawRect:(CGRect)rect;
+- (void)drawPlaceholderInRect:(CGRect)rect;
+@property (nonatomic, copy) NSString * _Nullable text;
+- (void)willMoveToSuperview:(UIView * _Null_unspecified)newSuperview;
+/**
+  The textfield has started an editing session.
+*/
+- (void)textFieldDidBeginEditing;
+/**
+  The textfield has ended an editing session.
+*/
+- (void)textFieldDidEndEditing;
+- (void)prepareForInterfaceBuilder;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+
+/**
+  An AkiraTextField is a subclass of the TextFieldEffects object, is a control that displays an UITextField with a customizable visual effect around the edges of the control.
+*/
+SWIFT_CLASS("_TtC13AppDontForget14AkiraTextField")
+@interface AkiraTextField : TextFieldEffects
+/**
+  The color of the border.
+  This property applies a color to the bounds of the control. The default value for this property is a clear color.
+*/
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+/**
+  The color of the placeholder text.
+  This property applies a color to the complete placeholder string. The default value for this property is a  black color.
+*/
+@property (nonatomic, strong) UIColor * _Nonnull placeholderColor;
+/**
+  The scale of the placeholder font.
+  This property determines the size of the placeholder label relative to the font size of the text field.
+*/
+@property (nonatomic) CGFloat placeholderFontScale;
+@property (nonatomic, copy) NSString * _Nullable placeholder;
+@property (nonatomic) CGRect bounds;
+- (void)drawViewsForRect:(CGRect)rect;
+- (void)animateViewsForTextEntry;
+- (void)animateViewsForTextDisplay;
+- (CGRect)placeholderRectForBounds:(CGRect)bounds;
+- (CGRect)editingRectForBounds:(CGRect)bounds;
+- (CGRect)textRectForBounds:(CGRect)bounds;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -132,18 +213,90 @@ SWIFT_CLASS("_TtC13AppDontForget11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (void)login;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSBundle;
-@class NSCoder;
 
-SWIFT_CLASS("_TtC13AppDontForget14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC13AppDontForget24CreateTaskViewController")
+@interface CreateTaskViewController : UIViewController
+- (void)viewDidLoad;
+- (IBAction)CancelDidT:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget18ListViewController")
+@interface ListViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_CLASS("_TtC13AppDontForget19LoginViewController")
+@interface LoginViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget26ProfileTableViewController")
+@interface ProfileTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImagePickerController;
+@class UIImage;
+@class UITapGestureRecognizer;
+@class UIImageView;
+
+SWIFT_CLASS("_TtC13AppDontForget20SignupViewController")
+@interface SignupViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified ProfileImg;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified UsernamTF;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified EmailTF;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified PasswordTF;
+@property (nonatomic, readonly, strong) UIImagePickerController * _Nonnull imagePicker;
+@property (nonatomic, strong) UIImage * _Null_unspecified selectedPhoto;
+- (void)viewDidLoad;
+- (void)selectPhotoWithTap:(UITapGestureRecognizer * _Nonnull)tap;
+- (IBAction)CancelDidT:(id _Nonnull)sender;
+- (IBAction)SignupDidT:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface SignupViewController (SWIFT_EXTENSION(AppDontForget)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+@end
+
+@class UICollectionView;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+
+SWIFT_CLASS("_TtC13AppDontForget32TasknoteCollectionViewController")
+@interface TasknoteCollectionViewController : UICollectionViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #pragma clang diagnostic pop
