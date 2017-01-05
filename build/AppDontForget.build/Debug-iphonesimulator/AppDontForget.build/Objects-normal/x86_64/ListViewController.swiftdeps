@@ -6,11 +6,11 @@ provides-nominal:
 provides-member:
 - ["C13AppDontForget18ListViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "ListViewController"
 - "UIViewController"
+- "ListViewController"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]

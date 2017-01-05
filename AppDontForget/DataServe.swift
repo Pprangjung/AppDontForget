@@ -26,7 +26,7 @@ class Datasevice{
     }
     var fileUrl:String!
     
-    
+   
     
     func SignUp(username:String,email:String,password:String,data:NSData){
         FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: {(user,Error)in
@@ -44,7 +44,7 @@ class Datasevice{
             usersReference.updateChildValues(values,withCompletionBlock:{
                 (err,ref)in
                 if err != nil{
-                    print(err)
+                    print(err!)
                     return
                     
                 }

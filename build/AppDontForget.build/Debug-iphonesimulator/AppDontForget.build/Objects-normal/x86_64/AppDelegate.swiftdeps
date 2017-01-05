@@ -6,31 +6,31 @@ provides-nominal:
 provides-member:
 - ["C13AppDontForget11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationDidBecomeActive"
 - "application"
 - "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
+- "login"
 - "window"
 - "applicationWillTerminate"
 - "applicationDidEnterBackground"
-- "login"
 - "applicationWillResignActive"
 depends-top-level:
-- !private "UIStoryboard"
-- "AppDelegate"
+- "Bool"
 - "UIApplication"
 - "UIApplicationLaunchOptionsKey"
-- "AssignmentPrecedence"
-- "Bool"
 - "CastingPrecedence"
-- !private "UINavigationController"
 - !private "FIRAuth"
-- "UIWindow"
-- !private "FIRApp"
-- !private "StringLiteralType"
 - !private "!="
+- !private "FIRApp"
+- !private "UIStoryboard"
 - "UIApplicationDelegate"
+- "AppDelegate"
+- !private "UINavigationController"
 - "UIResponder"
+- !private "StringLiteralType"
+- "AssignmentPrecedence"
 - !private "BooleanLiteralType"
+- "UIWindow"
 depends-member:
 - !private ["Ps9AnyObject", "FIRApp"]
 - !private ["Ps9AnyObject", "FIRAuth"]

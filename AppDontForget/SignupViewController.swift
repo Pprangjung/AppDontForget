@@ -79,7 +79,7 @@ class SignupViewController: UIViewController{
         
         var data = NSData()
             data = UIImageJPEGRepresentation(self.ProfileImg.image!,0.1)! as NSData
-        ProgressHUD.show("Please wait...",interaction:true)
+        ProgressHUD.show("Please wait...",interaction:false)
         Datasevice.datasevice.SignUp(username: username,email: email, password: password, data:data)
         
        }

@@ -1,13 +1,13 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "9deaeaec3f2af59a748804ef4cdf0be0"
-build_time: [535995837, 88054000]
+options: "f4bd9ab9e42bf8d8ac8394fc7270ead1"
+build_time: [536920243, 713069000]
 inputs:
   "/Users/prang/Desktop/AppDontForget/AppDontForget/ProfileTableViewController.swift": [535464222, 0]
-  "/Users/prang/Desktop/AppDontForget/AppDontForget/SignupViewController.swift": [535965083, 0]
+  "/Users/prang/Desktop/AppDontForget/AppDontForget/SignupViewController.swift": [536694514, 0]
   "/Users/prang/Desktop/AppDontForget/AkiraTextField.swift": [535372151, 0]
   "/Users/prang/Desktop/AppDontForget/AppDontForget/TasknoteCollectionViewController.swift": [535350364, 0]
   "/Users/prang/Desktop/AppDontForget/AppDontForget/LoginViewController.swift": [535843170, 0]
-  "/Users/prang/Desktop/AppDontForget/AppDontForget/DataServe.swift": [535837783, 0]
+  "/Users/prang/Desktop/AppDontForget/AppDontForget/DataServe.swift": [536693434, 0]
   "/Users/prang/Desktop/AppDontForget/AppDontForget/ListViewController.swift": [535460697, 0]
   "/Users/prang/Desktop/AppDontForget/TextFieldsEffects.swift": [529896332, 0]
   "/Users/prang/Desktop/AppDontForget/AppDontForget/AppDelegate.swift": [535825261, 0]

@@ -6,12 +6,12 @@ provides-nominal:
 provides-member:
 - ["C13AppDontForget19LoginViewController", ""]
 provides-dynamic-lookup:
-- "preferredStatusBarStyle"
 - "didReceiveMemoryWarning"
+- "preferredStatusBarStyle"
 - "viewDidLoad"
 depends-top-level:
-- "UIStatusBarStyle"
 - "UIViewController"
+- "UIStatusBarStyle"
 - "LoginViewController"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]

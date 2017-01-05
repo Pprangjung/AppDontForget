@@ -12,14 +12,14 @@ provides-dynamic-lookup:
 - "collectionView"
 - "numberOfSections"
 depends-top-level:
-- "TasknoteCollectionViewController"
-- "Int"
-- "UICollectionViewController"
-- "UICollectionViewCell"
 - "IndexPath"
-- "UICollectionView"
-- "StringLiteralType"
 - !private "reuseIdentifier"
+- "Int"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "StringLiteralType"
+- "TasknoteCollectionViewController"
+- "UICollectionViewController"
 depends-member:
 - !private ["Ps9AnyObject", "UICollectionViewCell"]
 - ["Ps9AnyObject", "collectionView"]

@@ -266,7 +266,6 @@
 				TargetAttributes = {
 					CBCF7F721E061B9400C7A648 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 973S88FYFY;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -517,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppDontForget/AppDontForget.entitlements;
-				DEVELOPMENT_TEAM = 973S88FYFY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppDontForget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForget;
@@ -536,7 +535,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppDontForget/AppDontForget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 973S88FYFY;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppDontForget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForget;
