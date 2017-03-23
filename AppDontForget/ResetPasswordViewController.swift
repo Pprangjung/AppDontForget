@@ -1,14 +1,14 @@
 //
-//  ListViewController.swift
+//  ResetPasswordViewController.swift
 //  AppDontForget
 //
-//  Created by Prang on 12/19/2559 BE.
-//  Copyright © 2559 Prang. All rights reserved.
+//  Created by Prang on 1/9/2560 BE.
+//  Copyright © 2560 Prang. All rights reserved.
 //
 
 import UIKit
 
-class ListViewController: UIViewController {
+class ResetPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

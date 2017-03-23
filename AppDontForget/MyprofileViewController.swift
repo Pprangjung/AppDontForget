@@ -1,14 +1,14 @@
 //
-//  SignupViewController.swift
+//  MyprofileViewController.swift
 //  AppDontForget
 //
-//  Created by Prang on 1/10/2560 BE.
+//  Created by Prang on 1/11/2560 BE.
 //  Copyright © 2560 Prang. All rights reserved.
 //
 
 import UIKit
 
-class SignupViewController: UIViewController {
+class MyprofileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
