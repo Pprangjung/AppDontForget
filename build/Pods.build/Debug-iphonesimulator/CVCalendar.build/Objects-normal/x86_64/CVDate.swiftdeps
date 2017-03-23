@@ -1,0 +1,455 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVDate"
+provides-nominal:
+- "C10CVCalendar6CVDate"
+provides-member:
+- ["C10CVCalendar6CVDate", ""]
+- ["C10CVCalendar6CVDate", "weekDay"]
+- ["C10CVCalendar6CVDate", "convertedDate"]
+- ["C10CVCalendar6CVDate", "globalDescription"]
+- ["C10CVCalendar6CVDate", "commonDescription"]
+provides-dynamic-lookup:
+- "month"
+- "convertedDate"
+- "day"
+- "globalDescription"
+- "commonDescription"
+- "year"
+- "week"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "DateFormatter"
+- "CastingPrecedence"
+- "Calendar"
+- "Weekday"
+- "NSObject"
+- "Foundation"
+- "CVDate"
+- "Int"
+- !private "Manager"
+- !private "UnicodeScalarType"
+- !private "NSCalendar"
+- !private "StringLiteralType"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "DateFormatter"]
+- !private ["Ps9AnyObject", "Foundation"]
+- !private ["Ps9AnyObject", "Manager"]
+- !private ["Ps9AnyObject", "NSCalendar"]
+- !private ["Ps9AnyObject", "Unit"]
+- !private ["Ps9AnyObject", "Weekday"]
+- ["Ps9AnyObject", "commonDescription"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "componentsForDate"]
+- ["Ps9AnyObject", "convertedDate"]
+- ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "dateFormattedStringWithFormat"]
+- !private ["Ps9AnyObject", "dateFromYear"]
+- !private ["Ps9AnyObject", "dateRange"]
+- ["Ps9AnyObject", "day"]
+- ["Ps9AnyObject", "globalDescription"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "month"]
+- !private ["Ps9AnyObject", "string"]
+- ["Ps9AnyObject", "week"]
+- ["Ps9AnyObject", "weekDay"]
+- ["Ps9AnyObject", "year"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["C10CVCalendar17CVCalendarManager", "componentsForDate"]
+- !private ["C10CVCalendar17CVCalendarManager", "dateFromYear"]
+- !private ["C10CVCalendar17CVCalendarManager", "dateRange"]
+- !private ["O10CVCalendar17CVCalendarWeekday", "deinit"]
+- !private ["O10CVCalendar17CVCalendarWeekday", "init"]
+- ["C10CVCalendar6CVDate", "Calendar"]
+- !private ["C10CVCalendar6CVDate", "DateFormatter"]
+- ["C10CVCalendar6CVDate", "Foundation"]
+- ["C10CVCalendar6CVDate", "Int"]
+- !private ["C10CVCalendar6CVDate", "Manager"]
+- !private ["C10CVCalendar6CVDate", "NSCalendar"]
+- ["C10CVCalendar6CVDate", "String"]
+- ["C10CVCalendar6CVDate", "Weekday"]
+- ["C10CVCalendar6CVDate", "commonDescription"]
+- ["C10CVCalendar6CVDate", "convertedDate"]
+- !private ["C10CVCalendar6CVDate", "date"]
+- !private ["C10CVCalendar6CVDate", "dateFormattedStringWithFormat"]
+- ["C10CVCalendar6CVDate", "day"]
+- ["C10CVCalendar6CVDate", "deinit"]
+- ["C10CVCalendar6CVDate", "globalDescription"]
+- ["C10CVCalendar6CVDate", "init"]
+- ["C10CVCalendar6CVDate", "month"]
+- ["C10CVCalendar6CVDate", "week"]
+- ["C10CVCalendar6CVDate", "weekDay"]
+- ["C10CVCalendar6CVDate", "year"]
+- !private ["Ps7CVarArg", "DateFormatter"]
+- !private ["Ps7CVarArg", "Foundation"]
+- !private ["Ps7CVarArg", "Manager"]
+- !private ["Ps7CVarArg", "NSCalendar"]
+- !private ["Ps7CVarArg", "Unit"]
+- !private ["Ps7CVarArg", "Weekday"]
+- ["Ps7CVarArg", "commonDescription"]
+- !private ["Ps7CVarArg", "components"]
+- ["Ps7CVarArg", "convertedDate"]
+- ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "dateFormat"]
+- !private ["Ps7CVarArg", "dateFormattedStringWithFormat"]
+- ["Ps7CVarArg", "day"]
+- ["Ps7CVarArg", "globalDescription"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "month"]
+- !private ["Ps7CVarArg", "string"]
+- ["Ps7CVarArg", "week"]
+- ["Ps7CVarArg", "weekDay"]
+- ["Ps7CVarArg", "year"]
+- ["Ps7CVarArg", ""]
+- !private ["V10Foundation8Calendar", "date"]
+- ["V10Foundation8Calendar", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "Foundation"]
+- !private ["Ps28CustomDebugStringConvertible", "Manager"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "Unit"]
+- !private ["Ps28CustomDebugStringConvertible", "Weekday"]
+- ["Ps28CustomDebugStringConvertible", "commonDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- ["Ps28CustomDebugStringConvertible", "convertedDate"]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormattedStringWithFormat"]
+- ["Ps28CustomDebugStringConvertible", "day"]
+- ["Ps28CustomDebugStringConvertible", "globalDescription"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "month"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- ["Ps28CustomDebugStringConvertible", "week"]
+- ["Ps28CustomDebugStringConvertible", "weekDay"]
+- !private ["Ps28CustomDebugStringConvertible", "weekOfMonth"]
+- !private ["Ps28CustomDebugStringConvertible", "weekday"]
+- ["Ps28CustomDebugStringConvertible", "year"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "date"]
+- !private ["Ps17CustomReflectable", "day"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "month"]
+- !private ["Ps17CustomReflectable", "weekOfMonth"]
+- !private ["Ps17CustomReflectable", "weekday"]
+- !private ["Ps17CustomReflectable", "year"]
+- !private ["Ps23CustomStringConvertible", "DateFormatter"]
+- !private ["Ps23CustomStringConvertible", "Foundation"]
+- !private ["Ps23CustomStringConvertible", "Manager"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "Unit"]
+- !private ["Ps23CustomStringConvertible", "Weekday"]
+- ["Ps23CustomStringConvertible", "commonDescription"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- ["Ps23CustomStringConvertible", "convertedDate"]
+- ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "dateFormattedStringWithFormat"]
+- ["Ps23CustomStringConvertible", "day"]
+- ["Ps23CustomStringConvertible", "globalDescription"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "month"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- ["Ps23CustomStringConvertible", "week"]
+- ["Ps23CustomStringConvertible", "weekDay"]
+- !private ["Ps23CustomStringConvertible", "weekOfMonth"]
+- !private ["Ps23CustomStringConvertible", "weekday"]
+- ["Ps23CustomStringConvertible", "year"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation14DateComponents", "day"]
+- ["V10Foundation14DateComponents", "deinit"]
+- !private ["V10Foundation14DateComponents", "month"]
+- !private ["V10Foundation14DateComponents", "weekOfMonth"]
+- !private ["V10Foundation14DateComponents", "weekday"]
+- !private ["V10Foundation14DateComponents", "year"]
+- !private ["CSo13DateFormatter", "dateFormat"]
+- !private ["CSo13DateFormatter", "deinit"]
+- !private ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "DateFormatter"]
+- !private ["Ps9Equatable", "Foundation"]
+- !private ["Ps9Equatable", "Manager"]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "Unit"]
+- !private ["Ps9Equatable", "Weekday"]
+- ["Ps9Equatable", "commonDescription"]
+- !private ["Ps9Equatable", "components"]
+- ["Ps9Equatable", "convertedDate"]
+- ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "dateFormat"]
+- !private ["Ps9Equatable", "dateFormattedStringWithFormat"]
+- ["Ps9Equatable", "day"]
+- ["Ps9Equatable", "globalDescription"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "month"]
+- !private ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "week"]
+- ["Ps9Equatable", "weekDay"]
+- !private ["Ps9Equatable", "weekOfMonth"]
+- !private ["Ps9Equatable", "weekday"]
+- ["Ps9Equatable", "year"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "weekday"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["CSo9Formatter", "dateFormat"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "string"]
+- !private ["Ps8Hashable", "DateFormatter"]
+- !private ["Ps8Hashable", "Foundation"]
+- !private ["Ps8Hashable", "Manager"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "Unit"]
+- !private ["Ps8Hashable", "Weekday"]
+- ["Ps8Hashable", "commonDescription"]
+- !private ["Ps8Hashable", "components"]
+- ["Ps8Hashable", "convertedDate"]
+- ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "dateFormat"]
+- !private ["Ps8Hashable", "dateFormattedStringWithFormat"]
+- ["Ps8Hashable", "day"]
+- ["Ps8Hashable", "globalDescription"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "month"]
+- !private ["Ps8Hashable", "string"]
+- ["Ps8Hashable", "week"]
+- ["Ps8Hashable", "weekDay"]
+- !private ["Ps8Hashable", "weekOfMonth"]
+- !private ["Ps8Hashable", "weekday"]
+- ["Ps8Hashable", "year"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo10NSCalendar", "Unit"]
+- !private ["CSo10NSCalendar", "components"]
+- ["CSo10NSCalendar", "deinit"]
+- !private ["PSo8NSCoding", "Unit"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo9NSCopying", "Unit"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Calendar"]
+- !private ["CSo8NSObject", "DateFormatter"]
+- ["CSo8NSObject", "Foundation"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Manager"]
+- !private ["CSo8NSObject", "NSCalendar"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Unit"]
+- ["CSo8NSObject", "Weekday"]
+- ["CSo8NSObject", "commonDescription"]
+- !private ["CSo8NSObject", "components"]
+- ["CSo8NSObject", "convertedDate"]
+- ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFormattedStringWithFormat"]
+- ["CSo8NSObject", "day"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "globalDescription"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "month"]
+- !private ["CSo8NSObject", "string"]
+- ["CSo8NSObject", "week"]
+- ["CSo8NSObject", "weekDay"]
+- ["CSo8NSObject", "year"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "DateFormatter"]
+- !private ["PSo16NSObjectProtocol", "Foundation"]
+- !private ["PSo16NSObjectProtocol", "Manager"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "Unit"]
+- !private ["PSo16NSObjectProtocol", "Weekday"]
+- ["PSo16NSObjectProtocol", "commonDescription"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- ["PSo16NSObjectProtocol", "convertedDate"]
+- ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFormattedStringWithFormat"]
+- ["PSo16NSObjectProtocol", "day"]
+- ["PSo16NSObjectProtocol", "globalDescription"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "month"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- ["PSo16NSObjectProtocol", "week"]
+- ["PSo16NSObjectProtocol", "weekDay"]
+- ["PSo16NSObjectProtocol", "year"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Unit"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Ps9OptionSet", "weekday"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "weekday"]
+- !private ["P10Foundation20ReferenceConvertible", "date"]
+- !private ["P10Foundation20ReferenceConvertible", "day"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "month"]
+- !private ["P10Foundation20ReferenceConvertible", "weekOfMonth"]
+- !private ["P10Foundation20ReferenceConvertible", "weekday"]
+- !private ["P10Foundation20ReferenceConvertible", "year"]
+- !private ["Ps10SetAlgebra", "weekday"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["VCSo10NSCalendar4Unit", "deinit"]
+- !private ["VCSo10NSCalendar4Unit", "weekday"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Unit"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DateFormatter"]
+- !private ["Ps9_Hashable", "Foundation"]
+- !private ["Ps9_Hashable", "Manager"]
+- !private ["Ps9_Hashable", "NSCalendar"]
+- !private ["Ps9_Hashable", "Unit"]
+- !private ["Ps9_Hashable", "Weekday"]
+- ["Ps9_Hashable", "commonDescription"]
+- !private ["Ps9_Hashable", "components"]
+- ["Ps9_Hashable", "convertedDate"]
+- ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "dateFormat"]
+- !private ["Ps9_Hashable", "dateFormattedStringWithFormat"]
+- ["Ps9_Hashable", "day"]
+- ["Ps9_Hashable", "globalDescription"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "month"]
+- !private ["Ps9_Hashable", "string"]
+- ["Ps9_Hashable", "week"]
+- ["Ps9_Hashable", "weekDay"]
+- !private ["Ps9_Hashable", "weekOfMonth"]
+- !private ["Ps9_Hashable", "weekday"]
+- ["Ps9_Hashable", "year"]
+- ["Ps9_Hashable", ""]
+- !private ["P10Foundation14_MutableBoxing", "date"]
+- !private ["P10Foundation14_MutableBoxing", "day"]
+- !private ["P10Foundation14_MutableBoxing", "month"]
+- !private ["P10Foundation14_MutableBoxing", "weekOfMonth"]
+- !private ["P10Foundation14_MutableBoxing", "weekday"]
+- !private ["P10Foundation14_MutableBoxing", "year"]
+- !private ["Ps21_ObjectiveCBridgeable", "date"]
+- !private ["Ps21_ObjectiveCBridgeable", "day"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "month"]
+- !private ["Ps21_ObjectiveCBridgeable", "weekOfMonth"]
+- !private ["Ps21_ObjectiveCBridgeable", "weekday"]
+- !private ["Ps21_ObjectiveCBridgeable", "year"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "C10CVCalendar17CVCalendarManager"
+- !private "O10CVCalendar17CVCalendarWeekday"
+- "C10CVCalendar6CVDate"
+- "Ps7CVarArg"
+- "V10Foundation8Calendar"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "V10Foundation14DateComponents"
+- !private "CSo13DateFormatter"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo10NSCalendar"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps10SetAlgebra"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "VCSo10NSCalendar4Unit"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "P10Foundation14_MutableBoxing"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "ca75a7439c8a39e98711d3ea71556f03"

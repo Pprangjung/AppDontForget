@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/prang/Desktop/AppDontForget 2/build/Debug-iphoneos/ImageLoader/ImageLoader.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/prang/Desktop/AppDontForget 2/build/Pods.build/Debug-iphoneos/ImageLoader.build/unextended-module.modulemap',
+    }]
+  }]
+}

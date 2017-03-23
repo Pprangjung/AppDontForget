@@ -118,13 +118,47 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import CoreGraphics;
 @import Foundation;
+@import ObjectiveC;
+@import EventKit;
+@import CoreLocation;
 #endif
+
+#import "/Users/prang/Desktop/AppDontForget2/AppDontForget/AppDontForget-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UIImagePickerController;
+@class FIRDatabaseReference;
+@class FIRStorageReference;
+@class UIStoryboardSegue;
+@class UITextField;
+@class UIImageView;
 @class UILabel;
-@class UIView;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC13AppDontForget26AddTodoTableViewController")
+@interface AddTodoTableViewController : UITableViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified itemName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified descriptionTF;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified picNote;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+@property (nonatomic, strong) UIImagePickerController * _Nonnull pickerImg;
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified databaseRef;
+@property (nonatomic, readonly, strong) FIRStorageReference * _Null_unspecified storageRef;
+- (void)setDateWithValue:(NSString * _Nonnull)toValue;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)viewDidLoad;
+- (IBAction)loadImageButtonTapped:(id _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (IBAction)saveAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
 
 /**
   A TextFieldEffects object is a control that displays editable text and contains the boilerplates to setup unique animations for text entrey and display. You typically use this class the same way you use UITextField.
@@ -201,93 +235,164 @@ SWIFT_CLASS("_TtC13AppDontForget14AkiraTextField")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIWindow;
-@class UIApplication;
 
-SWIFT_CLASS("_TtC13AppDontForget11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (nonatomic, strong) UIWindow * _Nullable window;
-- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
-- (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
-- (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
-- (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
-- (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
-- (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
-- (void)login;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSBundle;
-
-SWIFT_CLASS("_TtC13AppDontForget24CreateTaskViewController")
-@interface CreateTaskViewController : UIViewController
-- (void)viewDidLoad;
-- (IBAction)CancelDidT:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC13AppDontForget23AllUsersInTableViewCell")
+@interface AllUsersInTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified userImageView;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class FIRStorage;
+@class UITableView;
+@class RequestViewController;
 
-SWIFT_CLASS("_TtC13AppDontForget18ListViewController")
-@interface ListViewController : UIViewController
+SWIFT_CLASS("_TtC13AppDontForget27AllUsersTableViewController")
+@interface AllUsersTableViewController : UITableViewController
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified dataBaseRef;
+@property (nonatomic, readonly, strong) FIRStorage * _Nonnull storageRef;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC13AppDontForget19LoginViewController")
-@interface LoginViewController : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC13AppDontForget26ProfileTableViewController")
-@interface ProfileTableViewController : UITableViewController
-- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@property (nonatomic, strong) RequestViewController * _Nullable requestViewController;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImagePickerController;
-@class UIImage;
-@class UITapGestureRecognizer;
-@class UIImageView;
+@class UIWindow;
+@class UIApplication;
+@class NSData;
+@class NSNotification;
 
-SWIFT_CLASS("_TtC13AppDontForget20SignupViewController")
-@interface SignupViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified ProfileImg;
-@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified UsernamTF;
-@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified EmailTF;
-@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified PasswordTF;
-@property (nonatomic, readonly, strong) UIImagePickerController * _Nonnull imagePicker;
-@property (nonatomic, strong) UIImage * _Null_unspecified selectedPhoto;
-- (void)viewDidLoad;
-- (void)selectPhotoWithTap:(UITapGestureRecognizer * _Nonnull)tap;
-- (IBAction)CancelDidT:(id _Nonnull)sender;
-- (IBAction)SignupDidT:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC13AppDontForget11AppDelegate")
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property (nonatomic, strong) UIWindow * _Nullable window;
+@property (nonatomic, readonly, copy) NSString * _Nonnull gcmMessageIDKey;
+- (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
+- (void)logUser;
+- (void)applicationWithApplication:(UIApplication * _Nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nonnull)deviceToken;
+- (void)application:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo fetchCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
+- (void)tokenRefreshNotificationWithNotification:(NSNotification * _Nonnull)notification;
+- (void)connectToFCM;
+- (void)applicationDidBecomeActiveWithApplication:(UIApplication * _Nonnull)application;
+- (void)applicationDidEnterBackgroundWithApplication:(UIApplication * _Nonnull)application;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget15CalendarDayCell")
+@interface CalendarDayCell : UICollectionViewCell
+@property (nonatomic) NSInteger eventsCount;
+@property (nonatomic) BOOL isToday;
+@property (nonatomic, setter=setSelected:) BOOL isSelected;
+@property (nonatomic, strong) UIView * _Nonnull pBackgroundView;
+@property (nonatomic, strong) UILabel * _Nonnull textLabel;
+@property (nonatomic, strong) UIView * _Nonnull dotsView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface SignupViewController (SWIFT_EXTENSION(AppDontForget)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
-- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+SWIFT_CLASS("_TtC13AppDontForget13CalendarEvent")
+@interface CalendarEvent : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull title;
+@property (nonatomic, readonly, copy) NSDate * _Nonnull startDate;
+@property (nonatomic, readonly, copy) NSDate * _Nonnull endDate;
+- (nonnull instancetype)initWithTitle:(NSString * _Nonnull)title startDate:(NSDate * _Nonnull)startDate endDate:(NSDate * _Nonnull)endDate OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
+@class UICollectionViewLayoutAttributes;
+
+SWIFT_CLASS("_TtC13AppDontForget18CalendarFlowLayout")
+@interface CalendarFlowLayout : UICollectionViewFlowLayout
+- (NSArray<UICollectionViewLayoutAttributes *> * _Nullable)layoutAttributesForElementsInRect:(CGRect)rect;
+- (UICollectionViewLayoutAttributes * _Nullable)layoutAttributesForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)applyLayoutAttributes:(UICollectionViewLayoutAttributes * _Nonnull)attributes;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget18CalendarHeaderView")
+@interface CalendarHeaderView : UIView
+@property (nonatomic, strong) UILabel * _Nonnull monthLabel;
+@property (nonatomic, strong) UIView * _Nonnull dayLabelContainerView;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+@end
+
+@protocol CalendarViewDataSource;
+@protocol CalendarViewDelegate;
+@class EKEvent;
 @class UICollectionView;
-@class UICollectionViewCell;
+@class UIScrollView;
+
+SWIFT_CLASS("_TtC13AppDontForget12CalendarView")
+@interface CalendarView : UIView <UICollectionViewDelegate, UIScrollViewDelegate, UICollectionViewDataSource>
+@property (nonatomic, strong) id <CalendarViewDataSource> _Nullable dataSource;
+@property (nonatomic, strong) id <CalendarViewDelegate> _Nullable delegate;
+@property (nonatomic, copy) NSCalendar * _Nonnull gregorian;
+@property (nonatomic, readonly, copy) NSCalendar * _Nonnull calendar;
+@property (nonatomic) UICollectionViewScrollDirection direction;
+@property (nonatomic, copy) NSDate * _Nullable displayDate;
+@property (nonatomic, readonly, copy) NSArray<NSIndexPath *> * _Nonnull selectedIndexPaths;
+@property (nonatomic, readonly, copy) NSArray<NSDate *> * _Nonnull selectedDates;
+@property (nonatomic, copy) NSArray<EKEvent *> * _Nullable events;
+@property (nonatomic, strong) CalendarHeaderView * _Nonnull headerView;
+@property (nonatomic, strong) UICollectionView * _Nonnull calendarView;
+@property (nonatomic) CGRect frame;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)awakeFromNib;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
+@property (nonatomic, copy) NSDictionary<NSNumber *, NSArray<NSNumber *> *> * _Nonnull monthInfo;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView * _Nonnull)scrollView;
+- (NSDate * _Nullable)calculateDateBasedOnScrollViewPosition;
+- (BOOL)collectionView:(UICollectionView * _Nonnull)collectionView shouldSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)selectDate:(NSDate * _Nonnull)date;
+- (void)deselectDate:(NSDate * _Nonnull)date;
+- (NSIndexPath * _Nullable)indexPathForDate:(NSDate * _Nonnull)date;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didDeselectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)reloadData;
+- (void)setDisplayDate:(NSDate * _Nonnull)date animated:(BOOL)animated;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13AppDontForget22CalendarViewDataSource_")
+@protocol CalendarViewDataSource
+- (NSDate * _Nullable)startDate;
+- (NSDate * _Nullable)endDate;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13AppDontForget20CalendarViewDelegate_")
+@protocol CalendarViewDelegate
+@optional
+- (BOOL)calendar:(CalendarView * _Nonnull)calendar canSelectDate:(NSDate * _Nonnull)date;
+@required
+- (void)calendar:(CalendarView * _Nonnull)calendar didScrollToMonth:(NSDate * _Nonnull)date;
+- (void)calendar:(CalendarView * _Nonnull)calendar didSelectDate:(NSDate * _Nonnull)date withEvents:(NSArray<CalendarEvent *> * _Nonnull)events;
+@optional
+- (void)calendar:(CalendarView * _Nonnull)calendar didDeselectDate:(NSDate * _Nonnull)date;
+@end
+
 @class UICollectionViewLayout;
 
-SWIFT_CLASS("_TtC13AppDontForget32TasknoteCollectionViewController")
-@interface TasknoteCollectionViewController : UICollectionViewController
+SWIFT_CLASS("_TtC13AppDontForget17ChatLogController")
+@interface ChatLogController : UICollectionViewController
+@property (nonatomic, readonly, copy) NSString * _Nonnull cellId;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView;
@@ -298,5 +403,360 @@ SWIFT_CLASS("_TtC13AppDontForget32TasknoteCollectionViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC13AppDontForget12CustomButton")
+@interface CustomButton : UIButton
+@property (nonatomic) CGFloat cornerRadius;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC13AppDontForget19CustomableImageView")
+@interface CustomableImageView : UIImageView
+@property (nonatomic) CGFloat cornerRaDius;
+@property (nonatomic) CGFloat borderWidth;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface EKEvent (SWIFT_EXTENSION(AppDontForget))
+@property (nonatomic, readonly) BOOL isOneDay;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget13EventLocation")
+@interface EventLocation : NSObject
+- (nonnull instancetype)initWithTitle:(NSString * _Nonnull)title latitude:(double)latitude longitude:(double)longitude OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+@protocol LocationManagerDelegate;
+@class CLLocationManager;
+@class CLLocation;
+@class NSDictionary;
+@class CLPlacemark;
+@class NSString;
+
+SWIFT_CLASS("_TtC13AppDontForget15LocationManager")
+@interface LocationManager : NSObject <CLLocationManagerDelegate>
+@property (nonatomic, strong) id <LocationManagerDelegate> _Nullable delegate;
+@property (nonatomic) double latitude;
+@property (nonatomic) double longitude;
+@property (nonatomic, copy) NSString * _Nonnull latitudeAsString;
+@property (nonatomic, copy) NSString * _Nonnull longitudeAsString;
+@property (nonatomic) double lastKnownLatitude;
+@property (nonatomic) double lastKnownLongitude;
+@property (nonatomic, copy) NSString * _Nonnull lastKnownLatitudeAsString;
+@property (nonatomic, copy) NSString * _Nonnull lastKnownLongitudeAsString;
+@property (nonatomic) BOOL keepLastKnownLocation;
+@property (nonatomic) BOOL hasLastKnownLocation;
+@property (nonatomic) BOOL autoUpdate;
+@property (nonatomic) BOOL showVerboseMessage;
+@property (nonatomic) BOOL isRunning;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LocationManager * _Nonnull sharedInstance;)
++ (LocationManager * _Nonnull)sharedInstance;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+- (void)startUpdatingLocationWithCompletionHandler:(void (^ _Nullable)(double, double, NSString * _Nonnull, NSString * _Nonnull, NSString * _Nullable))completionHandler;
+- (void)startUpdatingLocation;
+- (void)stopUpdatingLocation;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)reverseGeocodeLocationWithLatLonWithLatitude:(double)latitude longitude:(double)longitude onReverseGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onReverseGeocodingCompletionHandler;
+- (void)reverseGeocodeLocationWithCoordinates:(CLLocation * _Nonnull)coord onReverseGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onReverseGeocodingCompletionHandler;
+- (void)geocodeAddressStringWithAddress:(NSString * _Nonnull)address onGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onGeocodingCompletionHandler;
+- (void)geocodeUsingGoogleAddressStringWithAddress:(NSString * _Nonnull)address onGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onGeocodingCompletionHandler;
+- (void)reverseGeocodeLocationUsingGoogleWithLatLonWithLatitude:(double)latitude longitude:(double)longitude onReverseGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onReverseGeocodingCompletionHandler;
+- (void)reverseGeocodeLocationUsingGoogleWithCoordinates:(CLLocation * _Nonnull)coord onReverseGeocodingCompletionHandler:(void (^ _Nullable)(NSDictionary * _Nullable, CLPlacemark * _Nullable, NSString * _Nullable))onReverseGeocodingCompletionHandler;
+@end
+
+
+SWIFT_PROTOCOL("_TtP13AppDontForget23LocationManagerDelegate_")
+@protocol LocationManagerDelegate <NSObject>
+- (void)locationFound:(double)latitude longitude:(double)longitude;
+@optional
+- (void)locationFoundGetAsString:(NSString * _Nonnull)latitude longitude:(NSString * _Nonnull)longitude;
+- (void)locationManagerStatus:(NSString * _Nonnull)status;
+- (void)locationManagerReceivedError:(NSString * _Nonnull)error;
+- (void)locationManagerVerboseMessage:(NSString * _Nonnull)message;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget19LoginViewController")
+@interface LoginViewController : UIViewController
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified emailTF;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified passwordTF;
+- (void)viewDidLoad;
+- (IBAction)unwindFor:(UIStoryboardSegue * _Nonnull)unwindSegue;
+- (IBAction)loginAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class MKMapView;
+
+SWIFT_CLASS("_TtC13AppDontForget24MapCurrentViewController")
+@interface MapCurrentViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, strong) CLLocationManager * _Nonnull coreLocationManger;
+@property (nonatomic, strong) LocationManager * _Null_unspecified locationManager;
+@property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified locationInfo;
+- (void)viewDidLoad;
+- (void)getLocation;
+- (void)displayLocationWithLocation:(CLLocation * _Nonnull)location;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)didReceiveMemoryWarning;
+- (IBAction)updateLocation:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSNumber;
+
+SWIFT_CLASS("_TtC13AppDontForget7Message")
+@interface Message : NSObject
+@property (nonatomic, copy) NSString * _Nullable fromId;
+@property (nonatomic, copy) NSString * _Nullable text;
+@property (nonatomic, strong) NSNumber * _Nullable timestamp;
+@property (nonatomic, copy) NSString * _Nullable toId;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget23MyprofileViewController")
+@interface MyprofileViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified username;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified email;
+@property (nonatomic, weak) IBOutlet CustomableImageView * _Null_unspecified userImageView;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified password;
+- (IBAction)updateName:(id _Nonnull)sender;
+- (IBAction)updateEmail:(id _Nonnull)sender;
+- (IBAction)updatePassword:(id _Nonnull)sender;
+- (IBAction)deleteAccount:(id _Nonnull)sender;
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified databaseRef;
+@property (nonatomic, readonly, strong) FIRStorage * _Null_unspecified storageRef;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)loadUserInfo;
+- (void)logOutAction:(id _Nonnull)sender;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget20NewMessageController")
+@interface NewMessageController : UITableViewController
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified dataBaseRef;
+@property (nonatomic, readonly, strong) FIRStorage * _Nonnull storageRef;
+@property (nonatomic, readonly, copy) NSString * _Nonnull cellId;
+- (void)viewDidLoad;
+- (void)handleCancel;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget21RequestViewController")
+@interface RequestViewController : UIViewController
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified dataBaseRef;
+@property (nonatomic, readonly, strong) FIRStorage * _Nonnull storageRef;
+@property (nonatomic, copy) NSString * _Nonnull selectedUserID;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Message;
+- (void)viewDidLoad;
+- (IBAction)handelSend:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget27ResetPasswordViewController")
+@interface ResetPasswordViewController : UIViewController
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified emailTF;
+- (void)viewDidLoad;
+- (IBAction)resetPasswordAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextView;
+@class NSTimer;
+@class SCLButton;
+@class UITouch;
+@class UIEvent;
+@class UITapGestureRecognizer;
+
+SWIFT_CLASS("_TtC13AppDontForget12SCLAlertView")
+@interface SCLAlertView : UIViewController
+@property (nonatomic, strong) UIColor * _Nonnull viewColor;
+@property (nonatomic, strong) UIColor * _Nullable iconTintColor;
+@property (nonatomic, strong) UIView * _Nullable customSubview;
+@property (nonatomic, strong) UIView * _Nonnull baseView;
+@property (nonatomic, strong) UILabel * _Nonnull labelTitle;
+@property (nonatomic, strong) UITextView * _Nonnull viewText;
+@property (nonatomic, strong) UIView * _Nonnull contentView;
+@property (nonatomic, strong) UIView * _Nonnull circleBG;
+@property (nonatomic, strong) UIView * _Nonnull circleView;
+@property (nonatomic, strong) UIView * _Nullable circleIconView;
+@property (nonatomic, strong) NSTimer * _Null_unspecified durationStatusTimer;
+@property (nonatomic, strong) NSTimer * _Null_unspecified durationTimer;
+@property (nonatomic, copy) void (^ _Nullable dismissBlock)(void);
+@property (nonatomic, copy) NSArray<SCLButton *> * _Nonnull buttons;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (void)viewWillLayoutSubviews;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+- (void)touchesEnded:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
+- (UITextField * _Nonnull)addTextField:(NSString * _Nullable)title;
+- (UITextView * _Nonnull)addTextView;
+- (SCLButton * _Nonnull)addButton:(NSString * _Nonnull)title backgroundColor:(UIColor * _Nullable)backgroundColor textColor:(UIColor * _Nullable)textColor showDurationStatus:(BOOL)showDurationStatus action:(void (^ _Nonnull)(void))action;
+- (SCLButton * _Nonnull)addButton:(NSString * _Nonnull)title backgroundColor:(UIColor * _Nullable)backgroundColor textColor:(UIColor * _Nullable)textColor showDurationStatus:(BOOL)showDurationStatus target:(id _Nonnull)target selector:(SEL _Nonnull)selector;
+- (void)buttonTapped:(SCLButton * _Nonnull)btn;
+- (void)buttonTapDown:(SCLButton * _Nonnull)btn;
+- (void)buttonRelease:(SCLButton * _Nonnull)btn;
+@property (nonatomic) BOOL keyboardHasBeenShown;
+- (void)keyboardWillShow:(NSNotification * _Nonnull)notification;
+- (void)keyboardWillHide:(NSNotification * _Nonnull)notification;
+- (void)tapped:(UITapGestureRecognizer * _Nonnull)gestureRecognizer;
+- (void)updateDurationStatus;
+- (void)hideView;
+- (UIImage * _Nonnull)checkCircleIconImage:(UIImage * _Nullable)circleIconImage defaultImage:(UIImage * _Nonnull)defaultImage;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget20SCLAlertViewStyleKit")
+@interface SCLAlertViewStyleKit : NSObject
++ (void)drawCheckmark;
++ (void)drawCross;
++ (void)drawNotice;
++ (void)drawWarning;
++ (void)drawInfo;
++ (void)drawEdit;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfCheckmark;)
++ (UIImage * _Nonnull)imageOfCheckmark;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfCross;)
++ (UIImage * _Nonnull)imageOfCross;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfNotice;)
++ (UIImage * _Nonnull)imageOfNotice;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfWarning;)
++ (UIImage * _Nonnull)imageOfWarning;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfInfo;)
++ (UIImage * _Nonnull)imageOfInfo;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UIImage * _Nonnull imageOfEdit;)
++ (UIImage * _Nonnull)imageOfEdit;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget9SCLButton")
+@interface SCLButton : UIButton
+@property (nonatomic, strong) id _Null_unspecified target;
+@property (nonatomic) SEL _Null_unspecified selector;
+@property (nonatomic, copy) void (^ _Null_unspecified action)(void);
+@property (nonatomic, strong) UIColor * _Nullable customBackgroundColor;
+@property (nonatomic, strong) UIColor * _Nullable customTextColor;
+@property (nonatomic, copy) NSString * _Null_unspecified initialTitle;
+- (NSString * _Null_unspecified)initialTitle SWIFT_METHOD_FAMILY(none);
+@property (nonatomic) BOOL showDurationStatus;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget20SignupViewController")
+@interface SignupViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet CustomableImageView * _Null_unspecified userImageView;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified usernameTF;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified emailTF;
+@property (nonatomic, weak) IBOutlet AkiraTextField * _Null_unspecified passwordTF;
+- (void)viewDidLoad;
+- (IBAction)choosePicture:(id _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (IBAction)singupAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class MGSwipeTableCell;
+
+SWIFT_CLASS("_TtC13AppDontForget27TodoListTableViewController")
+@interface TodoListTableViewController : UITableViewController
+@property (nonatomic, strong) FIRStorageReference * _Null_unspecified storageRef;
+@property (nonatomic, strong) FIRDatabaseReference * _Null_unspecified databaseRef;
+- (void)viewDidLoad;
+- (BOOL)swipeTableCell:(MGSwipeTableCell * _Nonnull)cell canSwipe:(MGSwipeDirection)direction;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget17TodoTableViewCell")
+@interface TodoTableViewCell : MGSwipeTableCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLabel;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified todoDescription;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified todoItemName;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified userImageView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified picNote;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget25UpdateTableViewController")
+@interface UpdateTableViewController : UITableViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified itemName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified descriptionTF;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified picNote;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+@property (nonatomic, strong) UIImagePickerController * _Nonnull pickerImg;
+@property (nonatomic, readonly, strong) FIRDatabaseReference * _Null_unspecified databaseRef;
+- (void)setDateWithValue:(NSString * _Nonnull)toValue;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)viewDidLoad;
+- (IBAction)loadImageButtonTapped:(id _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (IBAction)updateAction:(id _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13AppDontForget14ViewController")
+@interface ViewController : UIViewController <CalendarViewDataSource, CalendarViewDelegate>
+@property (nonatomic, weak) IBOutlet CalendarView * _Null_unspecified calendarView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (NSDate * _Nullable)startDate;
+- (NSDate * _Nullable)endDate;
+- (void)viewDidLayoutSubviews;
+- (void)calendar:(CalendarView * _Nonnull)calendar didSelectDate:(NSDate * _Nonnull)date withEvents:(NSArray<CalendarEvent *> * _Nonnull)events;
+- (void)calendar:(CalendarView * _Nonnull)calendar didScrollToMonth:(NSDate * _Nonnull)date;
+- (void)loadEventsInCalendar;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #pragma clang diagnostic pop

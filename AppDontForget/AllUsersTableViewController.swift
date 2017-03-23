@@ -34,9 +34,13 @@ class AllUsersTableViewController: UITableViewController {
         super.viewDidLoad()
         
         
+       
     }
     
+  
+
     override func viewWillAppear(_ animated: Bool) {
+       
         
         let usersRef = dataBaseRef.child("users")
         usersRef.observe(.value, with: { (snapshot) in
@@ -44,20 +48,28 @@ class AllUsersTableViewController: UITableViewController {
             
             var allUsers = [User]()
             
+            
             for user in snapshot.children {
                 
-                let myself = User(snapshot: user as! FIRDataSnapshot)
+                var myself = User(snapshot: user as! FIRDataSnapshot)
+                myself.uid = snapshot.key
+                print("mu",myself.uid)
                 
                 
                 if myself.username != FIRAuth.auth()!.currentUser!.displayName! {
                     
                     let newUser = User(snapshot: user as! FIRDataSnapshot)
                     allUsers.append(newUser)
+                    print(newUser.username!)
+                   
                 }
                 
             }
             self.users = allUsers
-            self.tableView.reloadData()
+            
+           self.tableView.reloadData()
+            
+
             
             
         }) { (error) in
@@ -65,6 +77,9 @@ class AllUsersTableViewController: UITableViewController {
            print("error")        }
         
     }
+   
+    
+      
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,14 +91,33 @@ class AllUsersTableViewController: UITableViewController {
         return 70
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+    var requestViewController: RequestViewController?
+
+       override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-       //  let currentUser = User(username:FIRAuth.auth()!.currentUser!.displayName!,userId:FIRAuth.auth()!.currentUser?.uid, photoUrl:String(FIRAuth.auth()!.currentUser?.photoURL!))
         
-        performSegue(withIdentifier: "showRequest", sender: self)
+        let usersRef = dataBaseRef.child("users")
+        usersRef.observe(.value, with: { (snapshot) in
+       
+            for user in snapshot.children {
+            let user =  User(snapshot: user as! FIRDataSnapshot)
+        
+            let currentUser =  self.users[indexPath.row]
+                
+                print("เข้ามั้ย??",currentUser.uid)
+        self.requestViewController?.showChatControllerForUser(user: currentUser)
+
+        
+        
+        
+            }
+        
+        })
         
     }
     
+  
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "usersCell", for: indexPath) as! AllUsersInTableViewCell
         
@@ -112,14 +146,13 @@ class AllUsersTableViewController: UITableViewController {
         return cell
     }
     
-    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showRequest" {
-            
-            let RequestVC = segue.destination as! RequestViewController
-           
-            
-        }
-    }*/
+    
+    
+    
+    
+    
+    
+    
     
     
 }

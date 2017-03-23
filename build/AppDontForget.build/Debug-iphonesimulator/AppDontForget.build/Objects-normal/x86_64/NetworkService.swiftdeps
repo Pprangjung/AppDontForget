@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkService"
+provides-nominal:
+- "V13AppDontForget14NetworkService"
+provides-member:
+- ["V13AppDontForget14NetworkService", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FIRUser"
+- "FIRStorageReference"
+- !private "FIRDatabase"
+- !private "FIRStorage"
+- !private "SCLAlertView"
+- "String"
+- "Data"
+- !private "StringLiteralType"
+- !private "Dictionary"
+- "FIRDatabaseReference"
+- "NetworkService"
+- !private "print"
+- !private "UIApplication"
+- !private "=="
+- !private "AppDelegate"
+- !private "CastingPrecedence"
+- !private "AssignmentPrecedence"
+- !private "FIRStorageMetadata"
+- !private "FIRAuth"
+depends-member:
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "child"]
+- !private ["Ps9AnyObject", "commitChanges"]
+- !private ["Ps9AnyObject", "contentType"]
+- !private ["Ps9AnyObject", "createUser"]
+- !private ["Ps9AnyObject", "database"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "displayName"]
+- !private ["Ps9AnyObject", "downloadURL"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logUser"]
+- !private ["Ps9AnyObject", "photoURL"]
+- !private ["Ps9AnyObject", "profileChangeRequest"]
+- !private ["Ps9AnyObject", "put"]
+- !private ["Ps9AnyObject", "reference"]
+- !private ["Ps9AnyObject", "sendPasswordReset"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "showError"]
+- !private ["Ps9AnyObject", "signIn"]
+- !private ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["C13AppDontForget11AppDelegate", "deinit"]
+- !private ["C13AppDontForget11AppDelegate", "logUser"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "auth"]
+- !private ["Ps7CVarArg", "child"]
+- !private ["Ps7CVarArg", "commitChanges"]
+- !private ["Ps7CVarArg", "contentType"]
+- !private ["Ps7CVarArg", "createUser"]
+- !private ["Ps7CVarArg", "database"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "displayName"]
+- !private ["Ps7CVarArg", "downloadURL"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "logUser"]
+- !private ["Ps7CVarArg", "photoURL"]
+- !private ["Ps7CVarArg", "profileChangeRequest"]
+- !private ["Ps7CVarArg", "put"]
+- !private ["Ps7CVarArg", "reference"]
+- !private ["Ps7CVarArg", "sendPasswordReset"]
+- !private ["Ps7CVarArg", "setValue"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "showError"]
+- !private ["Ps7CVarArg", "signIn"]
+- !private ["Ps7CVarArg", "storage"]
+- !private ["Ps7CVarArg", "uid"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "child"]
+- !private ["Ps28CustomDebugStringConvertible", "commitChanges"]
+- !private ["Ps28CustomDebugStringConvertible", "contentType"]
+- !private ["Ps28CustomDebugStringConvertible", "createUser"]
+- !private ["Ps28CustomDebugStringConvertible", "database"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "displayName"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadURL"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "logUser"]
+- !private ["Ps28CustomDebugStringConvertible", "photoURL"]
+- !private ["Ps28CustomDebugStringConvertible", "profileChangeRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "put"]
+- !private ["Ps28CustomDebugStringConvertible", "reference"]
+- !private ["Ps28CustomDebugStringConvertible", "sendPasswordReset"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "showError"]
+- !private ["Ps28CustomDebugStringConvertible", "signIn"]
+- !private ["Ps28CustomDebugStringConvertible", "storage"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "child"]
+- !private ["Ps23CustomStringConvertible", "commitChanges"]
+- !private ["Ps23CustomStringConvertible", "contentType"]
+- !private ["Ps23CustomStringConvertible", "createUser"]
+- !private ["Ps23CustomStringConvertible", "database"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "displayName"]
+- !private ["Ps23CustomStringConvertible", "downloadURL"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "logUser"]
+- !private ["Ps23CustomStringConvertible", "photoURL"]
+- !private ["Ps23CustomStringConvertible", "profileChangeRequest"]
+- !private ["Ps23CustomStringConvertible", "put"]
+- !private ["Ps23CustomStringConvertible", "reference"]
+- !private ["Ps23CustomStringConvertible", "sendPasswordReset"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "showError"]
+- !private ["Ps23CustomStringConvertible", "signIn"]
+- !private ["Ps23CustomStringConvertible", "storage"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "child"]
+- !private ["Ps9Equatable", "commitChanges"]
+- !private ["Ps9Equatable", "contentType"]
+- !private ["Ps9Equatable", "createUser"]
+- !private ["Ps9Equatable", "database"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "displayName"]
+- !private ["Ps9Equatable", "downloadURL"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "logUser"]
+- !private ["Ps9Equatable", "photoURL"]
+- !private ["Ps9Equatable", "profileChangeRequest"]
+- !private ["Ps9Equatable", "put"]
+- !private ["Ps9Equatable", "reference"]
+- !private ["Ps9Equatable", "sendPasswordReset"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "showError"]
+- !private ["Ps9Equatable", "signIn"]
+- !private ["Ps9Equatable", "storage"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo7FIRAuth", "auth"]
+- !private ["CSo7FIRAuth", "createUser"]
+- ["CSo7FIRAuth", "deinit"]
+- !private ["CSo7FIRAuth", "sendPasswordReset"]
+- !private ["CSo7FIRAuth", "signIn"]
+- !private ["CSo11FIRDatabase", "database"]
+- ["CSo11FIRDatabase", "deinit"]
+- !private ["CSo11FIRDatabase", "reference"]
+- !private ["CSo16FIRDatabaseQuery", "child"]
+- !private ["CSo16FIRDatabaseQuery", "setValue"]
+- !private ["CSo20FIRDatabaseReference", "child"]
+- ["CSo20FIRDatabaseReference", "deinit"]
+- !private ["CSo20FIRDatabaseReference", "setValue"]
+- ["CSo10FIRStorage", "deinit"]
+- !private ["CSo10FIRStorage", "reference"]
+- !private ["CSo10FIRStorage", "storage"]
+- !private ["CSo18FIRStorageMetadata", "contentType"]
+- !private ["CSo18FIRStorageMetadata", "deinit"]
+- !private ["CSo18FIRStorageMetadata", "downloadURL"]
+- !private ["CSo18FIRStorageMetadata", "init"]
+- !private ["CSo19FIRStorageReference", "child"]
+- ["CSo19FIRStorageReference", "deinit"]
+- !private ["CSo19FIRStorageReference", "put"]
+- !private ["CSo20FIRStorageUploadTask", "deinit"]
+- !private ["CSo7FIRUser", "deinit"]
+- !private ["CSo7FIRUser", "displayName"]
+- !private ["CSo7FIRUser", "email"]
+- !private ["CSo7FIRUser", "photoURL"]
+- !private ["CSo7FIRUser", "profileChangeRequest"]
+- !private ["CSo7FIRUser", "uid"]
+- !private ["PSo11FIRUserInfo", "displayName"]
+- !private ["PSo11FIRUserInfo", "email"]
+- !private ["PSo11FIRUserInfo", "photoURL"]
+- !private ["PSo11FIRUserInfo", "profileChangeRequest"]
+- !private ["PSo11FIRUserInfo", "uid"]
+- !private ["CSo27FIRUserProfileChangeRequest", "commitChanges"]
+- !private ["CSo27FIRUserProfileChangeRequest", "deinit"]
+- !private ["CSo27FIRUserProfileChangeRequest", "displayName"]
+- !private ["CSo27FIRUserProfileChangeRequest", "photoURL"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "child"]
+- !private ["Ps8Hashable", "commitChanges"]
+- !private ["Ps8Hashable", "contentType"]
+- !private ["Ps8Hashable", "createUser"]
+- !private ["Ps8Hashable", "database"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "displayName"]
+- !private ["Ps8Hashable", "downloadURL"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "logUser"]
+- !private ["Ps8Hashable", "photoURL"]
+- !private ["Ps8Hashable", "profileChangeRequest"]
+- !private ["Ps8Hashable", "put"]
+- !private ["Ps8Hashable", "reference"]
+- !private ["Ps8Hashable", "sendPasswordReset"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "showError"]
+- !private ["Ps8Hashable", "signIn"]
+- !private ["Ps8Hashable", "storage"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "showError"]
+- !private ["PSo9NSCopying", "contentType"]
+- !private ["PSo9NSCopying", "downloadURL"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "showError"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "auth"]
+- !private ["CSo8NSObject", "child"]
+- !private ["CSo8NSObject", "commitChanges"]
+- !private ["CSo8NSObject", "contentType"]
+- !private ["CSo8NSObject", "createUser"]
+- !private ["CSo8NSObject", "database"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "displayName"]
+- !private ["CSo8NSObject", "downloadURL"]
+- !private ["CSo8NSObject", "email"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "logUser"]
+- !private ["CSo8NSObject", "photoURL"]
+- !private ["CSo8NSObject", "profileChangeRequest"]
+- !private ["CSo8NSObject", "put"]
+- !private ["CSo8NSObject", "reference"]
+- !private ["CSo8NSObject", "sendPasswordReset"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "showError"]
+- !private ["CSo8NSObject", "signIn"]
+- !private ["CSo8NSObject", "storage"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "child"]
+- !private ["PSo16NSObjectProtocol", "commitChanges"]
+- !private ["PSo16NSObjectProtocol", "contentType"]
+- !private ["PSo16NSObjectProtocol", "createUser"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "displayName"]
+- !private ["PSo16NSObjectProtocol", "downloadURL"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "logUser"]
+- !private ["PSo16NSObjectProtocol", "photoURL"]
+- !private ["PSo16NSObjectProtocol", "profileChangeRequest"]
+- !private ["PSo16NSObjectProtocol", "put"]
+- !private ["PSo16NSObjectProtocol", "reference"]
+- !private ["PSo16NSObjectProtocol", "sendPasswordReset"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "showError"]
+- !private ["PSo16NSObjectProtocol", "signIn"]
+- !private ["PSo16NSObjectProtocol", "storage"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["V13AppDontForget14NetworkService", "AppDelegate"]
+- ["V13AppDontForget14NetworkService", "Data"]
+- !private ["V13AppDontForget14NetworkService", "FIRAuth"]
+- !private ["V13AppDontForget14NetworkService", "FIRDatabase"]
+- ["V13AppDontForget14NetworkService", "FIRDatabaseReference"]
+- !private ["V13AppDontForget14NetworkService", "FIRStorage"]
+- !private ["V13AppDontForget14NetworkService", "FIRStorageMetadata"]
+- ["V13AppDontForget14NetworkService", "FIRStorageReference"]
+- !private ["V13AppDontForget14NetworkService", "FIRUser"]
+- !private ["V13AppDontForget14NetworkService", "SCLAlertView"]
+- ["V13AppDontForget14NetworkService", "String"]
+- !private ["V13AppDontForget14NetworkService", "UIApplication"]
+- ["V13AppDontForget14NetworkService", "databaseRef"]
+- !private ["V13AppDontForget14NetworkService", "deinit"]
+- ["V13AppDontForget14NetworkService", "init"]
+- !private ["V13AppDontForget14NetworkService", "print"]
+- ["V13AppDontForget14NetworkService", "resetPassword"]
+- !private ["V13AppDontForget14NetworkService", "saveInfo"]
+- !private ["V13AppDontForget14NetworkService", "setUserInfo"]
+- ["V13AppDontForget14NetworkService", "signIn"]
+- ["V13AppDontForget14NetworkService", "signUp"]
+- ["V13AppDontForget14NetworkService", "storageRef"]
+- ["Sq", "deinit"]
+- !private ["C13AppDontForget12SCLAlertView", "deinit"]
+- !private ["C13AppDontForget12SCLAlertView", "init"]
+- !private ["C13AppDontForget12SCLAlertView", "showError"]
+- !private ["C13AppDontForget21SCLAlertViewResponder", "deinit"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "showError"]
+- !private ["CSo13UIApplication", "deinit"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["PSo21UIApplicationDelegate", "logUser"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "showError"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "showError"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "logUser"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "showError"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "logUser"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "showError"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "showError"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "showError"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "showError"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["V10Foundation3URL", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "auth"]
+- !private ["Ps9_Hashable", "child"]
+- !private ["Ps9_Hashable", "commitChanges"]
+- !private ["Ps9_Hashable", "contentType"]
+- !private ["Ps9_Hashable", "createUser"]
+- !private ["Ps9_Hashable", "database"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "displayName"]
+- !private ["Ps9_Hashable", "downloadURL"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "logUser"]
+- !private ["Ps9_Hashable", "photoURL"]
+- !private ["Ps9_Hashable", "profileChangeRequest"]
+- !private ["Ps9_Hashable", "put"]
+- !private ["Ps9_Hashable", "reference"]
+- !private ["Ps9_Hashable", "sendPasswordReset"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "showError"]
+- !private ["Ps9_Hashable", "signIn"]
+- !private ["Ps9_Hashable", "storage"]
+- !private ["Ps9_Hashable", "uid"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "C13AppDontForget11AppDelegate"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo7FIRAuth"
+- "CSo11FIRDatabase"
+- !private "CSo16FIRDatabaseQuery"
+- "CSo20FIRDatabaseReference"
+- "CSo10FIRStorage"
+- !private "CSo18FIRStorageMetadata"
+- "CSo19FIRStorageReference"
+- !private "CSo20FIRStorageUploadTask"
+- !private "CSo7FIRUser"
+- !private "PSo11FIRUserInfo"
+- !private "CSo27FIRUserProfileChangeRequest"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "V13AppDontForget14NetworkService"
+- "Sq"
+- !private "C13AppDontForget12SCLAlertView"
+- !private "C13AppDontForget21SCLAlertViewResponder"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "V10Foundation3URL"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/AppDontForget-Bridging-Header.h"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/MGSwipeTableCell.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/MGSwipeButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+interface-hash: "4df122336209a971daedc6a8eea5a8ff"

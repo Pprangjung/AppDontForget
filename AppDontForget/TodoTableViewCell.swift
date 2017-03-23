@@ -8,17 +8,27 @@
 
 import UIKit
 
-class TodoTableViewCell: UITableViewCell {
+class TodoTableViewCell: MGSwipeTableCell {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var todoDescription: UITextView!
+    @IBOutlet weak var todoItemName: UILabel!
+   
+    
+    @IBOutlet weak var userImageView: UIImageView!
+    
+    @IBOutlet weak var picNote: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        userImageView.layer.cornerRadius = 15
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
-    }
-
+    
+    
+    
+    
 }

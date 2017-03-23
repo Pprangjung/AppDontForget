@@ -1,0 +1,52 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarMenuViewDelegate"
+provides-nominal:
+- "P10CVCalendar26CVCalendarMenuViewDelegate"
+provides-member:
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", ""]
+provides-dynamic-lookup:
+- "firstWeekday"
+- "dayOfWeekBackGroundColor"
+- "dayOfWeekBackGroundColor"
+- "dayOfWeekTextUppercase"
+- "dayOfWeekTextColor"
+- "dayOfWeekTextColor"
+- "weekdaySymbolType"
+- "dayOfWeekFont"
+depends-top-level:
+- "Weekday"
+- "Bool"
+- "CVCalendarMenuViewDelegate"
+- "UIColor"
+- "WeekdaySymbolType"
+- "UIFont"
+depends-member:
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "Bool"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "UIColor"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "UIFont"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "Weekday"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "WeekdaySymbolType"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "dayOfWeekBackGroundColor"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "dayOfWeekFont"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "dayOfWeekTextColor"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "dayOfWeekTextUppercase"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "firstWeekday"]
+- ["P10CVCalendar26CVCalendarMenuViewDelegate", "weekdaySymbolType"]
+depends-nominal:
+- "P10CVCalendar26CVCalendarMenuViewDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "14bbb58bac24b1de562afd4561effe82"

@@ -1,0 +1,396 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TodoTableViewCell"
+provides-nominal:
+- "C13AppDontForget17TodoTableViewCell"
+provides-member:
+- ["C13AppDontForget17TodoTableViewCell", ""]
+provides-dynamic-lookup:
+- "todoDescription"
+- "usernameLabel"
+- "todoItemName"
+- "userImageView"
+- "awakeFromNib"
+- "picNote"
+depends-top-level:
+- "UIImageView"
+- "UITableViewCell"
+- "UILabel"
+- "UITextView"
+- "TodoTableViewCell"
+- "AssignmentPrecedence"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "picNote"]
+- ["Ps9AnyObject", "todoDescription"]
+- ["Ps9AnyObject", "todoItemName"]
+- ["Ps9AnyObject", "userImageView"]
+- ["Ps9AnyObject", "usernameLabel"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo7CALayer", "cornerRadius"]
+- ["CSo7CALayer", "deinit"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- ["PSo15CALayerDelegate", "picNote"]
+- ["PSo15CALayerDelegate", "todoDescription"]
+- ["PSo15CALayerDelegate", "todoItemName"]
+- ["PSo15CALayerDelegate", "userImageView"]
+- ["PSo15CALayerDelegate", "usernameLabel"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "cornerRadius"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layer"]
+- ["Ps7CVarArg", "picNote"]
+- ["Ps7CVarArg", "todoDescription"]
+- ["Ps7CVarArg", "todoItemName"]
+- ["Ps7CVarArg", "userImageView"]
+- ["Ps7CVarArg", "usernameLabel"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "picNote"]
+- ["Ps28CustomDebugStringConvertible", "todoDescription"]
+- ["Ps28CustomDebugStringConvertible", "todoItemName"]
+- ["Ps28CustomDebugStringConvertible", "userImageView"]
+- ["Ps28CustomDebugStringConvertible", "usernameLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "picNote"]
+- ["Ps23CustomStringConvertible", "todoDescription"]
+- ["Ps23CustomStringConvertible", "todoItemName"]
+- ["Ps23CustomStringConvertible", "userImageView"]
+- ["Ps23CustomStringConvertible", "usernameLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "picNote"]
+- ["Ps9Equatable", "todoDescription"]
+- ["Ps9Equatable", "todoItemName"]
+- ["Ps9Equatable", "userImageView"]
+- ["Ps9Equatable", "usernameLabel"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "picNote"]
+- ["Ps8Hashable", "todoDescription"]
+- ["Ps8Hashable", "todoItemName"]
+- ["Ps8Hashable", "userImageView"]
+- ["Ps8Hashable", "usernameLabel"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "picNote"]
+- ["PSo8NSCoding", "todoDescription"]
+- ["PSo8NSCoding", "todoItemName"]
+- ["PSo8NSCoding", "userImageView"]
+- ["PSo8NSCoding", "usernameLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "picNote"]
+- ["CSo8NSObject", "todoDescription"]
+- ["CSo8NSObject", "todoItemName"]
+- ["CSo8NSObject", "userImageView"]
+- ["CSo8NSObject", "usernameLabel"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "picNote"]
+- ["PSo16NSObjectProtocol", "todoDescription"]
+- ["PSo16NSObjectProtocol", "todoItemName"]
+- ["PSo16NSObjectProtocol", "userImageView"]
+- ["PSo16NSObjectProtocol", "usernameLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["C13AppDontForget17TodoTableViewCell", "UIImageView"]
+- ["C13AppDontForget17TodoTableViewCell", "UILabel"]
+- ["C13AppDontForget17TodoTableViewCell", "UITextView"]
+- ["C13AppDontForget17TodoTableViewCell", "awakeFromNib"]
+- ["C13AppDontForget17TodoTableViewCell", "deinit"]
+- ["C13AppDontForget17TodoTableViewCell", "init"]
+- ["C13AppDontForget17TodoTableViewCell", "picNote"]
+- ["C13AppDontForget17TodoTableViewCell", "todoDescription"]
+- ["C13AppDontForget17TodoTableViewCell", "todoItemName"]
+- ["C13AppDontForget17TodoTableViewCell", "userImageView"]
+- ["C13AppDontForget17TodoTableViewCell", "usernameLabel"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "picNote"]
+- ["PSo29UIAccessibilityIdentification", "todoDescription"]
+- ["PSo29UIAccessibilityIdentification", "todoItemName"]
+- ["PSo29UIAccessibilityIdentification", "userImageView"]
+- ["PSo29UIAccessibilityIdentification", "usernameLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "picNote"]
+- ["PSo12UIAppearance", "todoDescription"]
+- ["PSo12UIAppearance", "todoItemName"]
+- ["PSo12UIAppearance", "userImageView"]
+- ["PSo12UIAppearance", "usernameLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "picNote"]
+- ["PSo21UIAppearanceContainer", "todoDescription"]
+- ["PSo21UIAppearanceContainer", "todoItemName"]
+- ["PSo21UIAppearanceContainer", "userImageView"]
+- ["PSo21UIAppearanceContainer", "usernameLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "picNote"]
+- ["PSo17UICoordinateSpace", "todoDescription"]
+- ["PSo17UICoordinateSpace", "todoItemName"]
+- ["PSo17UICoordinateSpace", "userImageView"]
+- ["PSo17UICoordinateSpace", "usernameLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "picNote"]
+- ["PSo13UIDynamicItem", "todoDescription"]
+- ["PSo13UIDynamicItem", "todoItemName"]
+- ["PSo13UIDynamicItem", "userImageView"]
+- ["PSo13UIDynamicItem", "usernameLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "picNote"]
+- ["PSo18UIFocusEnvironment", "todoDescription"]
+- ["PSo18UIFocusEnvironment", "todoItemName"]
+- ["PSo18UIFocusEnvironment", "userImageView"]
+- ["PSo18UIFocusEnvironment", "usernameLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["PSo11UIFocusItem", "picNote"]
+- ["PSo11UIFocusItem", "todoDescription"]
+- ["PSo11UIFocusItem", "todoItemName"]
+- ["PSo11UIFocusItem", "userImageView"]
+- ["PSo11UIFocusItem", "usernameLabel"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "picNote"]
+- ["PSo27UIGestureRecognizerDelegate", "todoDescription"]
+- ["PSo27UIGestureRecognizerDelegate", "todoItemName"]
+- ["PSo27UIGestureRecognizerDelegate", "userImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "usernameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIImageView", "layer"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "picNote"]
+- ["CSo11UIResponder", "todoDescription"]
+- ["CSo11UIResponder", "todoItemName"]
+- ["CSo11UIResponder", "userImageView"]
+- ["CSo11UIResponder", "usernameLabel"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "picNote"]
+- ["PSo30UIResponderStandardEditActions", "todoDescription"]
+- ["PSo30UIResponderStandardEditActions", "todoItemName"]
+- ["PSo30UIResponderStandardEditActions", "userImageView"]
+- ["PSo30UIResponderStandardEditActions", "usernameLabel"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITextView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "picNote"]
+- ["CSo15UITableViewCell", "todoDescription"]
+- ["CSo15UITableViewCell", "todoItemName"]
+- ["CSo15UITableViewCell", "userImageView"]
+- ["CSo15UITableViewCell", "usernameLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "picNote"]
+- ["PSo18UITraitEnvironment", "todoDescription"]
+- ["PSo18UITraitEnvironment", "todoItemName"]
+- ["PSo18UITraitEnvironment", "userImageView"]
+- ["PSo18UITraitEnvironment", "usernameLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "picNote"]
+- ["CSo6UIView", "todoDescription"]
+- ["CSo6UIView", "todoItemName"]
+- ["CSo6UIView", "userImageView"]
+- ["CSo6UIView", "usernameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "picNote"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "todoDescription"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "todoItemName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "userImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "usernameLabel"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "cornerRadius"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- ["Ps9_Hashable", "picNote"]
+- ["Ps9_Hashable", "todoDescription"]
+- ["Ps9_Hashable", "todoItemName"]
+- ["Ps9_Hashable", "userImageView"]
+- ["Ps9_Hashable", "usernameLabel"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C13AppDontForget17TodoTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/AppDontForget-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+interface-hash: "36b626471c91d544b1a7c546686a2218"

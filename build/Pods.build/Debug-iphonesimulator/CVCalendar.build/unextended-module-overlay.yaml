@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/prang/Desktop/AppDontForget2/build/Debug-iphonesimulator/CVCalendar/CVCalendar.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap',
+    }]
+  }]
+}

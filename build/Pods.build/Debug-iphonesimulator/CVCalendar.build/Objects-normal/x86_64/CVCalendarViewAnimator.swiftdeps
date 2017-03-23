@@ -1,0 +1,370 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarViewAnimator"
+provides-nominal:
+- "C10CVCalendar22CVCalendarViewAnimator"
+provides-member:
+- ["C10CVCalendar22CVCalendarViewAnimator", ""]
+- ["C10CVCalendar22CVCalendarViewAnimator", "animateSelectionOnDayView"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "animateDeselectionOnDayView"]
+provides-dynamic-lookup:
+- "deselectionAnimation"
+- "selectionAnimation"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "UIViewAnimationOptions"
+- "CalendarView"
+- !private "UIView"
+- !private "Array"
+- "CVCalendarDayViewControlCoordinator"
+- "BooleanLiteralType"
+- !private "Void"
+- "CVCalendarViewAnimatorDelegate"
+- "CVCalendarViewAnimator"
+- "DayView"
+- "Bool"
+- !private "CGAffineTransform"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UIViewAnimationOptions"]
+- !private ["Ps9AnyObject", "alpha"]
+- !private ["Ps9AnyObject", "animate"]
+- !private ["Ps9AnyObject", "calendarView"]
+- !private ["Ps9AnyObject", "coordinator"]
+- !private ["Ps9AnyObject", "dayLabel"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "deselectionAnimation"]
+- !private ["Ps9AnyObject", "deselectionPerformedOnDayView"]
+- !private ["Ps9AnyObject", "deselectionWithFadeOutEffect"]
+- ["Ps9AnyObject", "selectionAnimation"]
+- !private ["Ps9AnyObject", "selectionView"]
+- !private ["Ps9AnyObject", "selectionWithBounceEffect"]
+- !private ["Ps9AnyObject", "setDeselectedWithClearing"]
+- !private ["Ps9AnyObject", "setSelectedWithType"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "alpha"]
+- !private ["PSo15CALayerDelegate", "animate"]
+- !private ["PSo15CALayerDelegate", "coordinator"]
+- !private ["PSo15CALayerDelegate", "dayLabel"]
+- !private ["PSo15CALayerDelegate", "selectionView"]
+- !private ["PSo15CALayerDelegate", "setDeselectedWithClearing"]
+- !private ["PSo15CALayerDelegate", "setSelectedWithType"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- !private ["VSC17CGAffineTransform", "deinit"]
+- !private ["VSC17CGAffineTransform", "init"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["C10CVCalendar15CVAuxiliaryView", "alpha"]
+- !private ["C10CVCalendar15CVAuxiliaryView", "deinit"]
+- !private ["C10CVCalendar15CVAuxiliaryView", "transform"]
+- !private ["C10CVCalendar17CVCalendarDayView", "dayLabel"]
+- ["C10CVCalendar17CVCalendarDayView", "deinit"]
+- !private ["C10CVCalendar17CVCalendarDayView", "selectionView"]
+- !private ["C10CVCalendar17CVCalendarDayView", "setDeselectedWithClearing"]
+- !private ["C10CVCalendar17CVCalendarDayView", "setSelectedWithType"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deinit"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deselectionPerformedOnDayView"]
+- !private ["C10CVCalendar14CVCalendarView", "coordinator"]
+- ["C10CVCalendar14CVCalendarView", "deinit"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "Bool"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "CGAffineTransform"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "CVCalendarDayViewControlCoordinator"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "CVCalendarViewAnimatorDelegate"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "CalendarView"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "DayView"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "UIView"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "UIViewAnimationOptions"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "Void"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "animateDeselectionOnDayView"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "animateSelectionOnDayView"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "calendarView"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "coordinator"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "deinit"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "delegate"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "deselectionAnimation"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "deselectionWithBubbleEffect"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "deselectionWithFadeOutEffect"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "deselectionWithRollingEffect"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "init"]
+- ["C10CVCalendar22CVCalendarViewAnimator", "selectionAnimation"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "selectionWithBounceEffect"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "CGAffineTransform"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "UIView"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "UIViewAnimationOptions"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "calendarView"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "coordinator"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "delegate"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "deselectionAnimation"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "deselectionWithFadeOutEffect"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "selectionAnimation"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "selectionWithBounceEffect"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", ""]
+- ["O10CVCalendar15CVSelectionType", "deinit"]
+- !private ["O10CVCalendar15CVSelectionType", "single"]
+- !private ["Ps7CVarArg", "alpha"]
+- !private ["Ps7CVarArg", "animate"]
+- !private ["Ps7CVarArg", "coordinator"]
+- !private ["Ps7CVarArg", "dayLabel"]
+- !private ["Ps7CVarArg", "selectionView"]
+- !private ["Ps7CVarArg", "setDeselectedWithClearing"]
+- !private ["Ps7CVarArg", "setSelectedWithType"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "alpha"]
+- !private ["Ps28CustomDebugStringConvertible", "animate"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "dayLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "selectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "setDeselectedWithClearing"]
+- !private ["Ps28CustomDebugStringConvertible", "setSelectedWithType"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "alpha"]
+- !private ["Ps23CustomStringConvertible", "animate"]
+- !private ["Ps23CustomStringConvertible", "coordinator"]
+- !private ["Ps23CustomStringConvertible", "dayLabel"]
+- !private ["Ps23CustomStringConvertible", "selectionView"]
+- !private ["Ps23CustomStringConvertible", "setDeselectedWithClearing"]
+- !private ["Ps23CustomStringConvertible", "setSelectedWithType"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "alpha"]
+- !private ["Ps9Equatable", "animate"]
+- !private ["Ps9Equatable", "beginFromCurrentState"]
+- !private ["Ps9Equatable", "coordinator"]
+- !private ["Ps9Equatable", "curveEaseOut"]
+- !private ["Ps9Equatable", "dayLabel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "selectionView"]
+- !private ["Ps9Equatable", "setDeselectedWithClearing"]
+- !private ["Ps9Equatable", "setSelectedWithType"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "RawValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "beginFromCurrentState"]
+- !private ["Ps25ExpressibleByArrayLiteral", "curveEaseOut"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps8Hashable", "alpha"]
+- !private ["Ps8Hashable", "animate"]
+- !private ["Ps8Hashable", "coordinator"]
+- !private ["Ps8Hashable", "dayLabel"]
+- !private ["Ps8Hashable", "selectionView"]
+- !private ["Ps8Hashable", "setDeselectedWithClearing"]
+- !private ["Ps8Hashable", "setSelectedWithType"]
+- !private ["Ps8Hashable", "transform"]
+- ["SQ", "deinit"]
+- !private ["PSo8NSCoding", "alpha"]
+- !private ["PSo8NSCoding", "animate"]
+- !private ["PSo8NSCoding", "coordinator"]
+- !private ["PSo8NSCoding", "dayLabel"]
+- !private ["PSo8NSCoding", "selectionView"]
+- !private ["PSo8NSCoding", "setDeselectedWithClearing"]
+- !private ["PSo8NSCoding", "setSelectedWithType"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["CSo8NSObject", "alpha"]
+- !private ["CSo8NSObject", "animate"]
+- !private ["CSo8NSObject", "coordinator"]
+- !private ["CSo8NSObject", "dayLabel"]
+- !private ["CSo8NSObject", "selectionView"]
+- !private ["CSo8NSObject", "setDeselectedWithClearing"]
+- !private ["CSo8NSObject", "setSelectedWithType"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- !private ["PSo16NSObjectProtocol", "animate"]
+- !private ["PSo16NSObjectProtocol", "coordinator"]
+- !private ["PSo16NSObjectProtocol", "dayLabel"]
+- !private ["PSo16NSObjectProtocol", "selectionView"]
+- !private ["PSo16NSObjectProtocol", "setDeselectedWithClearing"]
+- !private ["PSo16NSObjectProtocol", "setSelectedWithType"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "RawValue"]
+- !private ["Ps9OptionSet", "beginFromCurrentState"]
+- !private ["Ps9OptionSet", "curveEaseOut"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "beginFromCurrentState"]
+- !private ["Ps16RawRepresentable", "curveEaseOut"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "RawValue"]
+- !private ["Ps10SetAlgebra", "beginFromCurrentState"]
+- !private ["Ps10SetAlgebra", "curveEaseOut"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "animate"]
+- !private ["PSo29UIAccessibilityIdentification", "coordinator"]
+- !private ["PSo29UIAccessibilityIdentification", "dayLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "selectionView"]
+- !private ["PSo29UIAccessibilityIdentification", "setDeselectedWithClearing"]
+- !private ["PSo29UIAccessibilityIdentification", "setSelectedWithType"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "animate"]
+- !private ["PSo12UIAppearance", "coordinator"]
+- !private ["PSo12UIAppearance", "dayLabel"]
+- !private ["PSo12UIAppearance", "selectionView"]
+- !private ["PSo12UIAppearance", "setDeselectedWithClearing"]
+- !private ["PSo12UIAppearance", "setSelectedWithType"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "animate"]
+- !private ["PSo21UIAppearanceContainer", "coordinator"]
+- !private ["PSo21UIAppearanceContainer", "dayLabel"]
+- !private ["PSo21UIAppearanceContainer", "selectionView"]
+- !private ["PSo21UIAppearanceContainer", "setDeselectedWithClearing"]
+- !private ["PSo21UIAppearanceContainer", "setSelectedWithType"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "transform"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "animate"]
+- !private ["PSo17UICoordinateSpace", "coordinator"]
+- !private ["PSo17UICoordinateSpace", "dayLabel"]
+- !private ["PSo17UICoordinateSpace", "selectionView"]
+- !private ["PSo17UICoordinateSpace", "setDeselectedWithClearing"]
+- !private ["PSo17UICoordinateSpace", "setSelectedWithType"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "animate"]
+- !private ["PSo13UIDynamicItem", "coordinator"]
+- !private ["PSo13UIDynamicItem", "dayLabel"]
+- !private ["PSo13UIDynamicItem", "selectionView"]
+- !private ["PSo13UIDynamicItem", "setDeselectedWithClearing"]
+- !private ["PSo13UIDynamicItem", "setSelectedWithType"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "animate"]
+- !private ["PSo18UIFocusEnvironment", "coordinator"]
+- !private ["PSo18UIFocusEnvironment", "dayLabel"]
+- !private ["PSo18UIFocusEnvironment", "selectionView"]
+- !private ["PSo18UIFocusEnvironment", "setDeselectedWithClearing"]
+- !private ["PSo18UIFocusEnvironment", "setSelectedWithType"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo11UIFocusItem", "alpha"]
+- !private ["PSo11UIFocusItem", "animate"]
+- !private ["PSo11UIFocusItem", "coordinator"]
+- !private ["PSo11UIFocusItem", "dayLabel"]
+- !private ["PSo11UIFocusItem", "selectionView"]
+- !private ["PSo11UIFocusItem", "setDeselectedWithClearing"]
+- !private ["PSo11UIFocusItem", "setSelectedWithType"]
+- !private ["PSo11UIFocusItem", "transform"]
+- !private ["CSo7UILabel", "transform"]
+- !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "animate"]
+- !private ["CSo11UIResponder", "coordinator"]
+- !private ["CSo11UIResponder", "dayLabel"]
+- !private ["CSo11UIResponder", "selectionView"]
+- !private ["CSo11UIResponder", "setDeselectedWithClearing"]
+- !private ["CSo11UIResponder", "setSelectedWithType"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "alpha"]
+- !private ["PSo30UIResponderStandardEditActions", "animate"]
+- !private ["PSo30UIResponderStandardEditActions", "coordinator"]
+- !private ["PSo30UIResponderStandardEditActions", "dayLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "selectionView"]
+- !private ["PSo30UIResponderStandardEditActions", "setDeselectedWithClearing"]
+- !private ["PSo30UIResponderStandardEditActions", "setSelectedWithType"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "animate"]
+- !private ["PSo18UITraitEnvironment", "coordinator"]
+- !private ["PSo18UITraitEnvironment", "dayLabel"]
+- !private ["PSo18UITraitEnvironment", "selectionView"]
+- !private ["PSo18UITraitEnvironment", "setDeselectedWithClearing"]
+- !private ["PSo18UITraitEnvironment", "setSelectedWithType"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "animate"]
+- !private ["CSo6UIView", "coordinator"]
+- !private ["CSo6UIView", "dayLabel"]
+- !private ["CSo6UIView", "selectionView"]
+- !private ["CSo6UIView", "setDeselectedWithClearing"]
+- !private ["CSo6UIView", "setSelectedWithType"]
+- !private ["CSo6UIView", "transform"]
+- !private ["VSC22UIViewAnimationOptions", "Element"]
+- !private ["VSC22UIViewAnimationOptions", "RawValue"]
+- !private ["VSC22UIViewAnimationOptions", "beginFromCurrentState"]
+- !private ["VSC22UIViewAnimationOptions", "curveEaseOut"]
+- !private ["VSC22UIViewAnimationOptions", "deinit"]
+- !private ["VSC22UIViewAnimationOptions", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "alpha"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "coordinator"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dayLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "selectionView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setDeselectedWithClearing"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelectedWithType"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- !private ["Ps9_Hashable", "alpha"]
+- !private ["Ps9_Hashable", "animate"]
+- !private ["Ps9_Hashable", "coordinator"]
+- !private ["Ps9_Hashable", "dayLabel"]
+- !private ["Ps9_Hashable", "selectionView"]
+- !private ["Ps9_Hashable", "setDeselectedWithClearing"]
+- !private ["Ps9_Hashable", "setSelectedWithType"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "V12CoreGraphics7CGFloat"
+- !private "C10CVCalendar15CVAuxiliaryView"
+- "C10CVCalendar17CVCalendarDayView"
+- !private "C10CVCalendar35CVCalendarDayViewControlCoordinator"
+- "C10CVCalendar14CVCalendarView"
+- "C10CVCalendar22CVCalendarViewAnimator"
+- "P10CVCalendar30CVCalendarViewAnimatorDelegate"
+- "O10CVCalendar15CVSelectionType"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps8Hashable"
+- "SQ"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC22UIViewAnimationOptions"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "7178620a19cb330f392c1d85a92fbc55"

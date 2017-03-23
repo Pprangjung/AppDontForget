@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		4EB9156122B68EC08A0BD104 /* Pods_AppDontForget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A16C4AC1299CA690B8BA47 /* Pods_AppDontForget.framework */; };
+		CB0425FD1E28009400555EAB /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0425FC1E28009400555EAB /* TodoTableViewCell.swift */; };
+		CB0425FF1E2800ED00555EAB /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0425FE1E2800ED00555EAB /* TodoListTableViewController.swift */; };
+		CB0688011E2A2A19005AAD87 /* UpdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0688001E2A2A19005AAD87 /* UpdateTableViewController.swift */; };
+		CB1B49B01E7E267700000B12 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B49AF1E7E267700000B12 /* SCLAlertView.swift */; };
+		CB1CC2FB1E51F82500393A48 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1CC2FA1E51F82500393A48 /* EventKit.framework */; };
+		CB3C20221E2CC43B00E19C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3C20211E2CC43B00E19C58 /* Main.storyboard */; };
 		CB4AD8451E08D9330026D5CB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4AD8441E08D9330026D5CB /* Photos.framework */; };
 		CB4AD8471E08D93E0026D5CB /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4AD8461E08D93E0026D5CB /* PhotosUI.framework */; };
-		CBB4D18D1E0D6CFB00BF1DB0 /* DataServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB4D18C1E0D6CFB00BF1DB0 /* DataServe.swift */; };
-		CBB4D1971E0D9DDA00BF1DB0 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBB4D1941E0D9DDA00BF1DB0 /* ProgressHUD.bundle */; };
-		CBB4D1981E0D9DDA00BF1DB0 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB4D1961E0D9DDA00BF1DB0 /* ProgressHUD.m */; };
+		CB6F16581E26944700D2BB4D /* MyprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F16561E26944700D2BB4D /* MyprofileViewController.swift */; };
+		CB6F165B1E26A9A100D2BB4D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F165A1E26A9A100D2BB4D /* User.swift */; };
+		CB6F165D1E2761ED00D2BB4D /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F165C1E2761ED00D2BB4D /* TodoList.swift */; };
+		CB787FEC1E7A7713001BCA18 /* AllUsersInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB787FEA1E7A7713001BCA18 /* AllUsersInTableViewCell.swift */; };
+		CB787FED1E7A7713001BCA18 /* AllUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB787FEB1E7A7713001BCA18 /* AllUsersTableViewController.swift */; };
+		CB787FEF1E7A771D001BCA18 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB787FEE1E7A771D001BCA18 /* RequestViewController.swift */; };
+		CB80DD181E7B7CF10033D144 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80DD141E7B7CF10033D144 /* CalendarDayCell.swift */; };
+		CB80DD191E7B7CF10033D144 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80DD151E7B7CF10033D144 /* CalendarFlowLayout.swift */; };
+		CB80DD1A1E7B7CF10033D144 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80DD161E7B7CF10033D144 /* CalendarHeaderView.swift */; };
+		CB80DD1B1E7B7CF10033D144 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80DD171E7B7CF10033D144 /* CalendarView.swift */; };
+		CB80DD1D1E7B7CFC0033D144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80DD1C1E7B7CFC0033D144 /* ViewController.swift */; };
+		CBA53BCE1E80EECA00480764 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA53BCD1E80EECA00480764 /* MapKit.framework */; };
+		CBA53BD01E81084A00480764 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA53BCF1E81084A00480764 /* LocationManager.swift */; };
+		CBA53BD21E8109C500480764 /* MapCurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA53BD11E8109C500480764 /* MapCurrentViewController.swift */; };
+		CBBAE8561E22B3B8001A26E7 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE8551E22B3B8001A26E7 /* ResetPasswordViewController.swift */; };
+		CBBAE8581E22B3E1001A26E7 /*  AddTodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE8571E22B3E1001A26E7 /*  AddTodoTableViewController.swift */; };
+		CBBAE85C1E24F89B001A26E7 /* CustomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE85B1E24F89B001A26E7 /* CustomableImageView.swift */; };
+		CBBAE85E1E24FDAE001A26E7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE85D1E24FDAE001A26E7 /* SignupViewController.swift */; };
+		CBBAE8601E251234001A26E7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE85F1E251234001A26E7 /* CustomButton.swift */; };
+		CBBAE8621E2588E7001A26E7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBAE8611E2588E7001A26E7 /* NetworkService.swift */; };
+		CBC9CFBB1E839B9C00808FD1 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC9CFB81E839B9C00808FD1 /* MGSwipeButton.m */; };
+		CBC9CFBC1E839B9C00808FD1 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC9CFBA1E839B9C00808FD1 /* MGSwipeTableCell.m */; };
+		CBCDD6C21E7E7F2700CC736E /* SendText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDD6C11E7E7F2700CC736E /* SendText.swift */; };
+		CBCDD6E31E7FDD9D00CC736E /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDD6E21E7FDD9D00CC736E /* ChatLogController.swift */; };
+		CBCDD6E51E7FDDC300CC736E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDD6E41E7FDDC300CC736E /* Message.swift */; };
+		CBCDD6E71E7FE09200CC736E /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDD6E61E7FE09200CC736E /* NewMessageController.swift */; };
 		CBCF7F771E061B9400C7A648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F761E061B9400C7A648 /* AppDelegate.swift */; };
-		CBCF7F7C1E061B9400C7A648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F7A1E061B9400C7A648 /* Main.storyboard */; };
 		CBCF7F7E1E061B9400C7A648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F7D1E061B9400C7A648 /* Assets.xcassets */; };
 		CBCF7F811E061B9400C7A648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F7F1E061B9400C7A648 /* LaunchScreen.storyboard */; };
 		CBCF7F8A1E063FFA00C7A648 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F891E063FFA00C7A648 /* LoginViewController.swift */; };
-		CBCF7F8C1E06409800C7A648 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F8B1E06409800C7A648 /* SignupViewController.swift */; };
-		CBCF7F8E1E06475D00C7A648 /* TasknoteCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F8D1E06475D00C7A648 /* TasknoteCollectionViewController.swift */; };
-		CBCF7F901E0649B400C7A648 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F8F1E0649B400C7A648 /* CreateTaskViewController.swift */; };
-		CBCF7F941E064AB700C7A648 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7F931E064AB600C7A648 /* ProfileTableViewController.swift */; };
 		CBCF7F961E0651CE00C7A648 /* Somatic-Rounded 2.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F951E0651CE00C7A648 /* Somatic-Rounded 2.otf */; };
 		CBCF7FA51E0664DC00C7A648 /* date-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F981E0664DC00C7A648 /* date-icon.png */; };
 		CBCF7FA61E0664DC00C7A648 /* descript-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7F991E0664DC00C7A648 /* descript-icon.png */; };
@@ -42,32 +66,67 @@
 		CBCF7FEF1E070F3F00C7A648 /* tab-04.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7FEB1E070F3F00C7A648 /* tab-04.png */; };
 		CBCF7FF11E07AA6400C7A648 /* bgSi-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7FF01E07AA6400C7A648 /* bgSi-01.png */; };
 		CBCF7FF51E07E0E400C7A648 /* came-03.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7FF41E07E0E400C7A648 /* came-03.png */; };
-		CBCF7FF71E07F65900C7A648 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF7FF61E07F65900C7A648 /* ListViewController.swift */; };
 		CBCF7FFC1E08345D00C7A648 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBCF7FFB1E08345D00C7A648 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB4090F31E219EA6000C478B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCF7F6B1E061B9400C7A648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCF7F721E061B9400C7A648;
+			remoteInfo = AppDontForget;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		39BA804A651372A551BF9375 /* Pods-AppDontForget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDontForget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppDontForget/Pods-AppDontForget.debug.xcconfig"; sourceTree = "<group>"; };
 		C4C3F08B1B663810DEB56987 /* Pods-AppDontForget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDontForget.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppDontForget/Pods-AppDontForget.release.xcconfig"; sourceTree = "<group>"; };
+		CB0425FC1E28009400555EAB /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		CB0425FE1E2800ED00555EAB /* TodoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
+		CB0688001E2A2A19005AAD87 /* UpdateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTableViewController.swift; sourceTree = "<group>"; };
+		CB1B49AF1E7E267700000B12 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		CB1CC2FA1E51F82500393A48 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CB3C20211E2CC43B00E19C58 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = AppDontForget/Main.storyboard; sourceTree = "<group>"; };
+		CB4090EE1E219EA6000C478B /* AppDontForgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDontForgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4AD8441E08D9330026D5CB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		CB4AD8461E08D93E0026D5CB /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
-		CBB4D18C1E0D6CFB00BF1DB0 /* DataServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServe.swift; sourceTree = "<group>"; };
+		CB6F16561E26944700D2BB4D /* MyprofileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyprofileViewController.swift; sourceTree = "<group>"; };
+		CB6F165A1E26A9A100D2BB4D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB6F165C1E2761ED00D2BB4D /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		CB787FEA1E7A7713001BCA18 /* AllUsersInTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersInTableViewCell.swift; sourceTree = "<group>"; };
+		CB787FEB1E7A7713001BCA18 /* AllUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllUsersTableViewController.swift; sourceTree = "<group>"; };
+		CB787FEE1E7A771D001BCA18 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		CB80DD141E7B7CF10033D144 /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
+		CB80DD151E7B7CF10033D144 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		CB80DD161E7B7CF10033D144 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		CB80DD171E7B7CF10033D144 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CB80DD1C1E7B7CFC0033D144 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA53BCD1E80EECA00480764 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CBA53BCF1E81084A00480764 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CBA53BD11E8109C500480764 /* MapCurrentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCurrentViewController.swift; sourceTree = "<group>"; };
 		CBB4D18E1E0D91AA00BF1DB0 /* AppDontForget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDontForget-Bridging-Header.h"; sourceTree = "<group>"; };
-		CBB4D1941E0D9DDA00BF1DB0 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
-		CBB4D1951E0D9DDA00BF1DB0 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
-		CBB4D1961E0D9DDA00BF1DB0 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		CBBAE8551E22B3B8001A26E7 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		CBBAE8571E22B3E1001A26E7 /*  AddTodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " AddTodoTableViewController.swift"; sourceTree = "<group>"; };
+		CBBAE85B1E24F89B001A26E7 /* CustomableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomableImageView.swift; sourceTree = "<group>"; };
+		CBBAE85D1E24FDAE001A26E7 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		CBBAE85F1E251234001A26E7 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CBBAE8611E2588E7001A26E7 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CBC9CFB71E839B9C00808FD1 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		CBC9CFB81E839B9C00808FD1 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		CBC9CFB91E839B9C00808FD1 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		CBC9CFBA1E839B9C00808FD1 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		CBCDD6C11E7E7F2700CC736E /* SendText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendText.swift; sourceTree = "<group>"; };
+		CBCDD6E21E7FDD9D00CC736E /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		CBCDD6E41E7FDDC300CC736E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CBCDD6E61E7FE09200CC736E /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		CBCF7F731E061B9400C7A648 /* AppDontForget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDontForget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCF7F761E061B9400C7A648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBCF7F7B1E061B9400C7A648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBCF7F7D1E061B9400C7A648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBCF7F801E061B9400C7A648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBCF7F821E061B9400C7A648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCF7F881E06218C00C7A648 /* AppDontForget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppDontForget.entitlements; sourceTree = "<group>"; };
 		CBCF7F891E063FFA00C7A648 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CBCF7F8B1E06409800C7A648 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		CBCF7F8D1E06475D00C7A648 /* TasknoteCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasknoteCollectionViewController.swift; sourceTree = "<group>"; };
-		CBCF7F8F1E0649B400C7A648 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
-		CBCF7F931E064AB600C7A648 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		CBCF7F951E0651CE00C7A648 /* Somatic-Rounded 2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Somatic-Rounded 2.otf"; sourceTree = "<group>"; };
 		CBCF7F981E0664DC00C7A648 /* date-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date-icon.png"; sourceTree = "<group>"; };
 		CBCF7F991E0664DC00C7A648 /* descript-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "descript-icon.png"; sourceTree = "<group>"; };
@@ -89,16 +148,24 @@
 		CBCF7FEB1E070F3F00C7A648 /* tab-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-04.png"; sourceTree = "<group>"; };
 		CBCF7FF01E07AA6400C7A648 /* bgSi-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgSi-01.png"; sourceTree = "<group>"; };
 		CBCF7FF41E07E0E400C7A648 /* came-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "came-03.png"; sourceTree = "<group>"; };
-		CBCF7FF61E07F65900C7A648 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		CBCF7FFB1E08345D00C7A648 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3A16C4AC1299CA690B8BA47 /* Pods_AppDontForget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDontForget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CB4090EB1E219EA6000C478B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBCF7F701E061B9400C7A648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA53BCE1E80EECA00480764 /* MapKit.framework in Frameworks */,
+				CB1CC2FB1E51F82500393A48 /* EventKit.framework in Frameworks */,
 				CB4AD8471E08D93E0026D5CB /* PhotosUI.framework in Frameworks */,
 				CB4AD8451E08D9330026D5CB /* Photos.framework in Frameworks */,
 				4EB9156122B68EC08A0BD104 /* Pods_AppDontForget.framework in Frameworks */,
@@ -111,6 +178,8 @@
 		0DAD1892725A6A81C1EBC315 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBA53BCD1E80EECA00480764 /* MapKit.framework */,
+				CB1CC2FA1E51F82500393A48 /* EventKit.framework */,
 				CB4AD8461E08D93E0026D5CB /* PhotosUI.framework */,
 				CB4AD8441E08D9330026D5CB /* Photos.framework */,
 				E3A16C4AC1299CA690B8BA47 /* Pods_AppDontForget.framework */,
@@ -127,9 +196,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB1986271E63E258006AAC43 /* sendTask */ = {
+			isa = PBXGroup;
+			children = (
+				CBCDD6E41E7FDDC300CC736E /* Message.swift */,
+				CB787FEA1E7A7713001BCA18 /* AllUsersInTableViewCell.swift */,
+				CB787FEB1E7A7713001BCA18 /* AllUsersTableViewController.swift */,
+				CB787FEE1E7A771D001BCA18 /* RequestViewController.swift */,
+				CBCDD6E61E7FE09200CC736E /* NewMessageController.swift */,
+				CBCDD6E21E7FDD9D00CC736E /* ChatLogController.swift */,
+			);
+			name = sendTask;
+			sourceTree = "<group>";
+		};
+		CB1CC3761E5389E400393A48 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CB80DD141E7B7CF10033D144 /* CalendarDayCell.swift */,
+				CB80DD151E7B7CF10033D144 /* CalendarFlowLayout.swift */,
+				CB80DD161E7B7CF10033D144 /* CalendarHeaderView.swift */,
+				CB80DD171E7B7CF10033D144 /* CalendarView.swift */,
+				CB80DD1C1E7B7CFC0033D144 /* ViewController.swift */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+		CBC9CFBD1E839BA900808FD1 /* MG */ = {
+			isa = PBXGroup;
+			children = (
+				CBC9CFB71E839B9C00808FD1 /* MGSwipeButton.h */,
+				CBC9CFB81E839B9C00808FD1 /* MGSwipeButton.m */,
+				CBC9CFBA1E839B9C00808FD1 /* MGSwipeTableCell.m */,
+				CBC9CFB91E839B9C00808FD1 /* MGSwipeTableCell.h */,
+			);
+			name = MG;
+			sourceTree = "<group>";
+		};
 		CBCF7F6A1E061B9400C7A648 = {
 			isa = PBXGroup;
 			children = (
+				CBCDD6C11E7E7F2700CC736E /* SendText.swift */,
+				CB3C20211E2CC43B00E19C58 /* Main.storyboard */,
+				CBA53BD11E8109C500480764 /* MapCurrentViewController.swift */,
 				CBCF7F751E061B9400C7A648 /* AppDontForget */,
 				CBCF7F741E061B9400C7A648 /* Products */,
 				CBCF7FC91E06950900C7A648 /* textfield */,
@@ -142,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				CBCF7F731E061B9400C7A648 /* AppDontForget.app */,
+				CB4090EE1E219EA6000C478B /* AppDontForgetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,20 +259,18 @@
 			isa = PBXGroup;
 			children = (
 				CBCF7F951E0651CE00C7A648 /* Somatic-Rounded 2.otf */,
+				CBA53BCF1E81084A00480764 /* LocationManager.swift */,
 				CBCF7F761E061B9400C7A648 /* AppDelegate.swift */,
-				CBB4D18C1E0D6CFB00BF1DB0 /* DataServe.swift */,
+				CB1CC3761E5389E400393A48 /* calendar */,
 				CBCF7FFA1E08335D00C7A648 /* ViewController */,
 				CBCF7F971E0664DC00C7A648 /* AllPicSource */,
-				CBCF7F7A1E061B9400C7A648 /* Main.storyboard */,
 				CBCF7F881E06218C00C7A648 /* AppDontForget.entitlements */,
-				CBB4D1941E0D9DDA00BF1DB0 /* ProgressHUD.bundle */,
-				CBB4D1951E0D9DDA00BF1DB0 /* ProgressHUD.h */,
-				CBB4D1961E0D9DDA00BF1DB0 /* ProgressHUD.m */,
 				CBCF7F7D1E061B9400C7A648 /* Assets.xcassets */,
 				CBCF7F7F1E061B9400C7A648 /* LaunchScreen.storyboard */,
 				CBCF7F821E061B9400C7A648 /* Info.plist */,
 				CBCF7FFB1E08345D00C7A648 /* GoogleService-Info.plist */,
 				CBB4D18E1E0D91AA00BF1DB0 /* AppDontForget-Bridging-Header.h */,
+				CBC9CFBD1E839BA900808FD1 /* MG */,
 			);
 			path = AppDontForget;
 			sourceTree = "<group>";
@@ -206,7 +313,10 @@
 			isa = PBXGroup;
 			children = (
 				CBCF7F891E063FFA00C7A648 /* LoginViewController.swift */,
-				CBCF7F8B1E06409800C7A648 /* SignupViewController.swift */,
+				CBBAE8551E22B3B8001A26E7 /* ResetPasswordViewController.swift */,
+				CBBAE85D1E24FDAE001A26E7 /* SignupViewController.swift */,
+				CB6F16561E26944700D2BB4D /* MyprofileViewController.swift */,
+				CB1B49AF1E7E267700000B12 /* SCLAlertView.swift */,
 			);
 			name = "Login-Signup";
 			sourceTree = "<group>";
@@ -214,8 +324,11 @@
 		CBCF7FF91E08333E00C7A648 /* Note */ = {
 			isa = PBXGroup;
 			children = (
-				CBCF7F8D1E06475D00C7A648 /* TasknoteCollectionViewController.swift */,
-				CBCF7F8F1E0649B400C7A648 /* CreateTaskViewController.swift */,
+				CBBAE8571E22B3E1001A26E7 /*  AddTodoTableViewController.swift */,
+				CB0688001E2A2A19005AAD87 /* UpdateTableViewController.swift */,
+				CB0425FE1E2800ED00555EAB /* TodoListTableViewController.swift */,
+				CB0425FC1E28009400555EAB /* TodoTableViewCell.swift */,
+				CB1986271E63E258006AAC43 /* sendTask */,
 			);
 			name = Note;
 			sourceTree = "<group>";
@@ -223,10 +336,13 @@
 		CBCF7FFA1E08335D00C7A648 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CBBAE8611E2588E7001A26E7 /* NetworkService.swift */,
+				CB6F165C1E2761ED00D2BB4D /* TodoList.swift */,
+				CB6F165A1E26A9A100D2BB4D /* User.swift */,
+				CBBAE85B1E24F89B001A26E7 /* CustomableImageView.swift */,
+				CBBAE85F1E251234001A26E7 /* CustomButton.swift */,
 				CBCF7FF81E08331B00C7A648 /* Login-Signup */,
 				CBCF7FF91E08333E00C7A648 /* Note */,
-				CBCF7F931E064AB600C7A648 /* ProfileTableViewController.swift */,
-				CBCF7FF61E07F65900C7A648 /* ListViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -234,6 +350,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CB4090ED1E219EA6000C478B /* AppDontForgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4090F51E219EA6000C478B /* Build configuration list for PBXNativeTarget "AppDontForgetUITests" */;
+			buildPhases = (
+				CB4090EA1E219EA6000C478B /* Sources */,
+				CB4090EB1E219EA6000C478B /* Frameworks */,
+				CB4090EC1E219EA6000C478B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB4090F41E219EA6000C478B /* PBXTargetDependency */,
+			);
+			name = AppDontForgetUITests;
+			productName = AppDontForgetUITests;
+			productReference = CB4090EE1E219EA6000C478B /* AppDontForgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CBCF7F721E061B9400C7A648 /* AppDontForget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBCF7F851E061B9400C7A648 /* Build configuration list for PBXNativeTarget "AppDontForget" */;
@@ -264,12 +398,24 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Prang;
 				TargetAttributes = {
+					CB4090ED1E219EA6000C478B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCF7F721E061B9400C7A648;
+					};
 					CBCF7F721E061B9400C7A648 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = G3Z6Q26APU;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -290,11 +436,19 @@
 			projectRoot = "";
 			targets = (
 				CBCF7F721E061B9400C7A648 /* AppDontForget */,
+				CB4090ED1E219EA6000C478B /* AppDontForgetUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CB4090EC1E219EA6000C478B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBCF7F711E061B9400C7A648 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +458,7 @@
 				CBCF7FC01E0694E200C7A648 /* Info.plist in Resources */,
 				CBCF7F961E0651CE00C7A648 /* Somatic-Rounded 2.otf in Resources */,
 				CBCF7FCF1E06C8C900C7A648 /* bg_launch.png in Resources */,
+				CB3C20221E2CC43B00E19C58 /* Main.storyboard in Resources */,
 				CBCF7FEC1E070F3F00C7A648 /* tab-03.png in Resources */,
 				CBCF7FAA1E0664DC00C7A648 /* next-icon.png in Resources */,
 				CBCF7FA51E0664DC00C7A648 /* date-icon.png in Resources */,
@@ -317,11 +472,9 @@
 				CBCF7FA61E0664DC00C7A648 /* descript-icon.png in Resources */,
 				CBCF7FB11E0664DC00C7A648 /* title-icon.png in Resources */,
 				CBCF7FF51E07E0E400C7A648 /* came-03.png in Resources */,
-				CBB4D1971E0D9DDA00BF1DB0 /* ProgressHUD.bundle in Resources */,
 				CBCF7FA81E0664DC00C7A648 /* logo-02.png in Resources */,
 				CBCF7FAE1E0664DC00C7A648 /* request-to-icon.png in Resources */,
 				CBCF7FAC1E0664DC00C7A648 /* ProfileAva.png in Resources */,
-				CBCF7F7C1E061B9400C7A648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,35 +529,64 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CB4090EA1E219EA6000C478B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBCF7F6F1E061B9400C7A648 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBCF7F941E064AB700C7A648 /* ProfileTableViewController.swift in Sources */,
-				CBCF7F8C1E06409800C7A648 /* SignupViewController.swift in Sources */,
+				CB787FED1E7A7713001BCA18 /* AllUsersTableViewController.swift in Sources */,
+				CB80DD1A1E7B7CF10033D144 /* CalendarHeaderView.swift in Sources */,
+				CBC9CFBB1E839B9C00808FD1 /* MGSwipeButton.m in Sources */,
+				CBA53BD01E81084A00480764 /* LocationManager.swift in Sources */,
+				CB787FEF1E7A771D001BCA18 /* RequestViewController.swift in Sources */,
+				CB6F165D1E2761ED00D2BB4D /* TodoList.swift in Sources */,
+				CBCDD6E51E7FDDC300CC736E /* Message.swift in Sources */,
+				CBA53BD21E8109C500480764 /* MapCurrentViewController.swift in Sources */,
+				CB80DD1B1E7B7CF10033D144 /* CalendarView.swift in Sources */,
 				CBCF7FBE1E0694E200C7A648 /* AkiraTextField.swift in Sources */,
-				CBCF7F8E1E06475D00C7A648 /* TasknoteCollectionViewController.swift in Sources */,
 				CBCF7F8A1E063FFA00C7A648 /* LoginViewController.swift in Sources */,
-				CBB4D18D1E0D6CFB00BF1DB0 /* DataServe.swift in Sources */,
-				CBB4D1981E0D9DDA00BF1DB0 /* ProgressHUD.m in Sources */,
-				CBCF7FF71E07F65900C7A648 /* ListViewController.swift in Sources */,
+				CB80DD1D1E7B7CFC0033D144 /* ViewController.swift in Sources */,
+				CB0425FD1E28009400555EAB /* TodoTableViewCell.swift in Sources */,
+				CB0688011E2A2A19005AAD87 /* UpdateTableViewController.swift in Sources */,
+				CBBAE85E1E24FDAE001A26E7 /* SignupViewController.swift in Sources */,
+				CB787FEC1E7A7713001BCA18 /* AllUsersInTableViewCell.swift in Sources */,
+				CBCDD6C21E7E7F2700CC736E /* SendText.swift in Sources */,
+				CB1B49B01E7E267700000B12 /* SCLAlertView.swift in Sources */,
+				CBBAE8561E22B3B8001A26E7 /* ResetPasswordViewController.swift in Sources */,
+				CBBAE8581E22B3E1001A26E7 /*  AddTodoTableViewController.swift in Sources */,
+				CB80DD181E7B7CF10033D144 /* CalendarDayCell.swift in Sources */,
+				CBCDD6E71E7FE09200CC736E /* NewMessageController.swift in Sources */,
+				CBBAE85C1E24F89B001A26E7 /* CustomableImageView.swift in Sources */,
+				CB6F165B1E26A9A100D2BB4D /* User.swift in Sources */,
+				CBBAE8601E251234001A26E7 /* CustomButton.swift in Sources */,
+				CBC9CFBC1E839B9C00808FD1 /* MGSwipeTableCell.m in Sources */,
 				CBCF7FC61E0694E200C7A648 /* TextFieldsEffects.swift in Sources */,
+				CB6F16581E26944700D2BB4D /* MyprofileViewController.swift in Sources */,
+				CBBAE8621E2588E7001A26E7 /* NetworkService.swift in Sources */,
+				CBCDD6E31E7FDD9D00CC736E /* ChatLogController.swift in Sources */,
+				CB80DD191E7B7CF10033D144 /* CalendarFlowLayout.swift in Sources */,
 				CBCF7F771E061B9400C7A648 /* AppDelegate.swift in Sources */,
-				CBCF7F901E0649B400C7A648 /* CreateTaskViewController.swift in Sources */,
+				CB0425FF1E2800ED00555EAB /* TodoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CBCF7F7A1E061B9400C7A648 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBCF7F7B1E061B9400C7A648 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		CB4090F41E219EA6000C478B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCF7F721E061B9400C7A648 /* AppDontForget */;
+			targetProxy = CB4090F31E219EA6000C478B /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		CBCF7F7F1E061B9400C7A648 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +598,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CB4090F61E219EA6000C478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AppDontForgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AppDontForget;
+			};
+			name = Debug;
+		};
+		CB4090F71E219EA6000C478B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AppDontForgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AppDontForget;
+			};
+			name = Release;
+		};
 		CBCF7F831E061B9400C7A648 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,7 +724,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppDontForget/AppDontForget.entitlements;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G3Z6Q26APU;
 				INFOPLIST_FILE = AppDontForget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForget;
@@ -534,13 +744,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppDontForget/AppDontForget.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G3Z6Q26APU;
 				INFOPLIST_FILE = AppDontForget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Prang.AppDontForget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppDontForget/AppDontForget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -548,6 +760,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CB4090F51E219EA6000C478B /* Build configuration list for PBXNativeTarget "AppDontForgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4090F61E219EA6000C478B /* Debug */,
+				CB4090F71E219EA6000C478B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CBCF7F6E1E061B9400C7A648 /* Build configuration list for PBXProject "AppDontForget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

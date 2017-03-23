@@ -6,4 +6,13 @@
 //  Copyright © 2560 Prang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Message: NSObject {
+    
+    var fromId: String?
+    var text: String?
+    var timestamp: NSNumber?
+    var toId: String?
+    
+}

@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarDayViewControlCoordinator"
+provides-nominal:
+- "C10CVCalendar35CVCalendarDayViewControlCoordinator"
+provides-member:
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", ""]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "selectionPerformedOnDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deselectionPerformedOnDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "dequeueDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "flush"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "performDayViewSingleSelection"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "performDayViewRangeSelection"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "print"
+- "Set"
+- "DayView"
+- "CalendarView"
+- "CVCalendarViewAnimator"
+- "CVCalendarDayViewControlCoordinator"
+- "CVCalendarDayView"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private ">"
+depends-member:
+- !private ["Ps9AnyObject", "RawValue"]
+- ["Ps9AnyObject", "Set"]
+- !private ["Ps9AnyObject", "animateDeselectionOnDayView"]
+- !private ["Ps9AnyObject", "animateSelectionOnDayView"]
+- !private ["Ps9AnyObject", "animator"]
+- !private ["Ps9AnyObject", "calendarView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "presentDeselectionOnDayView"]
+- !private ["Ps9AnyObject", "presentSelectionOnDayView"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "selectedDayView"]
+- !private ["Ps9AnyObject", "selectionSet"]
+- !private ["Ps9AnyObject", "setDeselectedWithClearing"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "RawValue"]
+- !private ["PSo15CALayerDelegate", "animator"]
+- !private ["PSo15CALayerDelegate", "calendarView"]
+- !private ["PSo15CALayerDelegate", "setDeselectedWithClearing"]
+- !private ["C10CVCalendar17CVCalendarDayView", "RawValue"]
+- !private ["C10CVCalendar17CVCalendarDayView", "calendarView"]
+- ["C10CVCalendar17CVCalendarDayView", "deinit"]
+- !private ["C10CVCalendar17CVCalendarDayView", "setDeselectedWithClearing"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "CVCalendarDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "CVCalendarViewAnimator"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "CalendarView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "DayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "Set"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "animator"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "calendarView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deinit"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "dequeueDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deselectionPerformedOnDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "flush"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "init"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "performDayViewRangeSelection"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "performDayViewSingleSelection"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "presentDeselectionOnDayView"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "presentSelectionOnDayView"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "print"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "selectedDayView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "selectionPerformedOnDayView"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "selectionSet"]
+- !private ["C10CVCalendar14CVCalendarView", "animator"]
+- ["C10CVCalendar14CVCalendarView", "deinit"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "animateDeselectionOnDayView"]
+- !private ["C10CVCalendar22CVCalendarViewAnimator", "animateSelectionOnDayView"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "animateDeselectionOnDayView"]
+- !private ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "animateSelectionOnDayView"]
+- ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "RawValue"]
+- !private ["Ps7CVarArg", "animator"]
+- !private ["Ps7CVarArg", "calendarView"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "insert"]
+- !private ["Ps7CVarArg", "remove"]
+- !private ["Ps7CVarArg", "removeAll"]
+- !private ["Ps7CVarArg", "setDeselectedWithClearing"]
+- ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Collection", "removeAll"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "RawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "animator"]
+- !private ["Ps28CustomDebugStringConvertible", "calendarView"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "setDeselectedWithClearing"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "RawValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "insert"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps17CustomReflectable", "removeAll"]
+- ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "RawValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "animator"]
+- !private ["Ps23CustomStringConvertible", "calendarView"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insert"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- !private ["Ps23CustomStringConvertible", "setDeselectedWithClearing"]
+- ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "animator"]
+- !private ["Ps9Equatable", "calendarView"]
+- !private ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insert"]
+- !private ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "removeAll"]
+- !private ["Ps9Equatable", "setDeselectedWithClearing"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "insert"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeAll"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "RawValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Element"]
+- !private ["Ps8Hashable", "IndexDistance"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "animator"]
+- !private ["Ps8Hashable", "calendarView"]
+- !private ["Ps8Hashable", "count"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insert"]
+- !private ["Ps8Hashable", "remove"]
+- !private ["Ps8Hashable", "removeAll"]
+- !private ["Ps8Hashable", "setDeselectedWithClearing"]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "insert"]
+- !private ["Ps9Indexable", "remove"]
+- !private ["Ps9Indexable", "removeAll"]
+- ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "insert"]
+- !private ["Ps13IndexableBase", "remove"]
+- !private ["Ps13IndexableBase", "removeAll"]
+- ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "RawValue"]
+- !private ["PSo8NSCoding", "animator"]
+- !private ["PSo8NSCoding", "calendarView"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setDeselectedWithClearing"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "RawValue"]
+- !private ["CSo8NSObject", "animator"]
+- !private ["CSo8NSObject", "calendarView"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setDeselectedWithClearing"]
+- !private ["PSo16NSObjectProtocol", "RawValue"]
+- !private ["PSo16NSObjectProtocol", "animator"]
+- !private ["PSo16NSObjectProtocol", "calendarView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setDeselectedWithClearing"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "RawValue"]
+- ["Sq", "deinit"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "remove"]
+- !private ["Ps8Sequence", "removeAll"]
+- ["Vs3Set", "Element"]
+- !private ["Vs3Set", "IndexDistance"]
+- !private ["Vs3Set", "Iterator"]
+- !private ["Vs3Set", "count"]
+- ["Vs3Set", "deinit"]
+- ["Vs3Set", "init"]
+- !private ["Vs3Set", "insert"]
+- !private ["Vs3Set", "remove"]
+- !private ["Vs3Set", "removeAll"]
+- ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "IndexDistance"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Ps10SetAlgebra", "count"]
+- ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "insert"]
+- !private ["Ps10SetAlgebra", "remove"]
+- !private ["Ps10SetAlgebra", "removeAll"]
+- !private ["Vs11SetIterator", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "RawValue"]
+- !private ["PSo29UIAccessibilityIdentification", "animator"]
+- !private ["PSo29UIAccessibilityIdentification", "calendarView"]
+- !private ["PSo29UIAccessibilityIdentification", "setDeselectedWithClearing"]
+- !private ["PSo12UIAppearance", "RawValue"]
+- !private ["PSo12UIAppearance", "animator"]
+- !private ["PSo12UIAppearance", "calendarView"]
+- !private ["PSo12UIAppearance", "setDeselectedWithClearing"]
+- !private ["PSo21UIAppearanceContainer", "RawValue"]
+- !private ["PSo21UIAppearanceContainer", "animator"]
+- !private ["PSo21UIAppearanceContainer", "calendarView"]
+- !private ["PSo21UIAppearanceContainer", "setDeselectedWithClearing"]
+- !private ["PSo17UICoordinateSpace", "RawValue"]
+- !private ["PSo17UICoordinateSpace", "animator"]
+- !private ["PSo17UICoordinateSpace", "calendarView"]
+- !private ["PSo17UICoordinateSpace", "setDeselectedWithClearing"]
+- !private ["PSo13UIDynamicItem", "RawValue"]
+- !private ["PSo13UIDynamicItem", "animator"]
+- !private ["PSo13UIDynamicItem", "calendarView"]
+- !private ["PSo13UIDynamicItem", "setDeselectedWithClearing"]
+- !private ["PSo18UIFocusEnvironment", "RawValue"]
+- !private ["PSo18UIFocusEnvironment", "animator"]
+- !private ["PSo18UIFocusEnvironment", "calendarView"]
+- !private ["PSo18UIFocusEnvironment", "setDeselectedWithClearing"]
+- !private ["PSo11UIFocusItem", "RawValue"]
+- !private ["PSo11UIFocusItem", "animator"]
+- !private ["PSo11UIFocusItem", "calendarView"]
+- !private ["PSo11UIFocusItem", "setDeselectedWithClearing"]
+- !private ["CSo11UIResponder", "RawValue"]
+- !private ["CSo11UIResponder", "animator"]
+- !private ["CSo11UIResponder", "calendarView"]
+- !private ["CSo11UIResponder", "deinit"]
+- !private ["CSo11UIResponder", "setDeselectedWithClearing"]
+- !private ["PSo30UIResponderStandardEditActions", "RawValue"]
+- !private ["PSo30UIResponderStandardEditActions", "animator"]
+- !private ["PSo30UIResponderStandardEditActions", "calendarView"]
+- !private ["PSo30UIResponderStandardEditActions", "setDeselectedWithClearing"]
+- !private ["PSo18UITraitEnvironment", "RawValue"]
+- !private ["PSo18UITraitEnvironment", "animator"]
+- !private ["PSo18UITraitEnvironment", "calendarView"]
+- !private ["PSo18UITraitEnvironment", "setDeselectedWithClearing"]
+- !private ["CSo6UIView", "RawValue"]
+- !private ["CSo6UIView", "animator"]
+- !private ["CSo6UIView", "calendarView"]
+- !private ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "setDeselectedWithClearing"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RawValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animator"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "calendarView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setDeselectedWithClearing"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Element"]
+- !private ["Ps9_Hashable", "IndexDistance"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "animator"]
+- !private ["Ps9_Hashable", "calendarView"]
+- !private ["Ps9_Hashable", "count"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "insert"]
+- !private ["Ps9_Hashable", "remove"]
+- !private ["Ps9_Hashable", "removeAll"]
+- !private ["Ps9_Hashable", "setDeselectedWithClearing"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "RawValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "insert"]
+- !private ["Ps21_ObjectiveCBridgeable", "remove"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "C10CVCalendar17CVCalendarDayView"
+- "C10CVCalendar35CVCalendarDayViewControlCoordinator"
+- "C10CVCalendar14CVCalendarView"
+- !private "C10CVCalendar22CVCalendarViewAnimator"
+- !private "P10CVCalendar30CVCalendarViewAnimatorDelegate"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "Ps8Sequence"
+- "Vs3Set"
+- "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "7401c35e99cfdb58ec3bcff16f8526f2"

@@ -8,14 +8,24 @@
 
 import UIKit
 
-class CustomableImageView: UIImageView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+@IBDesignable   class CustomableImageView: UIImageView {
+    @IBInspectable var cornerRaDius: CGFloat = 0  {
+        didSet{
+       layer.cornerRadius = cornerRaDius
+        
+        }
+    
     }
-    */
-
+    
+    @IBInspectable var borderWidth:CGFloat = 0 {
+        didSet{
+        layer.borderWidth = borderWidth
+        
+        }
+    
+    }
+    
+  
+    
+    
 }

@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarViewAnimatorDelegate"
+provides-nominal:
+- "P10CVCalendar30CVCalendarViewAnimatorDelegate"
+provides-member:
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", ""]
+provides-dynamic-lookup:
+- "deselectionAnimation"
+- "selectionAnimation"
+depends-top-level:
+- "Bool"
+- "CVCalendarViewAnimatorDelegate"
+- "DayView"
+depends-member:
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "Bool"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "DayView"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "deselectionAnimation"]
+- ["P10CVCalendar30CVCalendarViewAnimatorDelegate", "selectionAnimation"]
+depends-nominal:
+- "P10CVCalendar30CVCalendarViewAnimatorDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "41f3896b3095cb2e5c7f261e11d60a21"

@@ -11,10 +11,33 @@ import FirebaseDatabase
 import FirebaseAuth
 import Firebase
 
- var user: User?
- var message: Message?
+
+ var user : User!
+
 
 class RequestViewController: UIViewController {
+    
+    
+    var dataBaseRef: FIRDatabaseReference! {
+        
+        return FIRDatabase.database().reference()
+    }
+    
+    var storageRef: FIRStorage {
+        
+        return FIRStorage.storage()
+    }
+    
+    
+    
+   var selectedUserID = String()
+    
+    func showChatControllerForUser(user: User){
+        let chatLogController = RequestViewController()
+        chatLogController.selectedUserID  = user.uid
+        navigationController?.pushViewController(chatLogController, animated: true)
+    }
+
 
     @IBOutlet weak var Message: UITextField!
     
@@ -26,19 +49,22 @@ class RequestViewController: UIViewController {
     }
 
     
-    @IBAction func handleSend(_ sender: Any) {
-        let ref = FIRDatabase.database().reference().child("Send")
+    
+  
+    @IBAction func handelSend(_ sender: Any){
+        let ref = FIRDatabase.database().reference().child("messages")
         let childRef = ref.childByAutoId()
+        let toId = user!.uid!
         
+        let fromId = FIRAuth.auth()!.currentUser!.uid
+    
+        let  text = self.Message.text
         
-        let  toID = user?.uid!
-        print(user?.uid!) //  nil
+        let sendText = SendText(text: text!, toId: toId, fromId: fromId)
         
-        let fromID = FIRAuth.auth()!.currentUser!.uid
-        let timeStamp = NSNumber(value: Int(NSDate().timeIntervalSince1970))
-        let value = ["text":Message.text!,"toID":toID,"fromID":fromID,"timeStamp":timeStamp] as [String : Any]
-        childRef.updateChildValues(value)
-        print(Message.text!)
     }
+
+
+
 
 }

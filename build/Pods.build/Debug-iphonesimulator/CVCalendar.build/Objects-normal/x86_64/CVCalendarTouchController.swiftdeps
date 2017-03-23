@@ -1,0 +1,657 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarTouchController"
+provides-nominal:
+- "C10CVCalendar25CVCalendarTouchController"
+provides-member:
+- ["C10CVCalendar25CVCalendarTouchController", ""]
+- ["C10CVCalendar25CVCalendarTouchController", "receiveTouchLocation"]
+- ["C10CVCalendar25CVCalendarTouchController", "receiveTouchLocation"]
+- ["C10CVCalendar25CVCalendarTouchController", "receiveTouchOnDayView"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CVCalendarTouchController"
+- "CVSelectionType"
+- !private "+="
+- !private ">="
+- !private "<="
+- "CVCalendarWeekView"
+- !private "print"
+- !private "CGFloat"
+- "Coordinator"
+- !private "*"
+- "CalendarView"
+- !private "&&"
+- "CVCalendarMonthView"
+- !private "BooleanLiteralType"
+- "CGPoint"
+- !private "Bool"
+- !private "StringLiteralType"
+- !private "DayView"
+- !private "!="
+- !private ">"
+- !private "*="
+- "CVCalendarDayView"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "RawValue"]
+- !private ["Ps9AnyObject", "appearance"]
+- !private ["Ps9AnyObject", "calendarView"]
+- !private ["Ps9AnyObject", "coordinator"]
+- !private ["Ps9AnyObject", "dayViews"]
+- !private ["Ps9AnyObject", "didSelectDayView"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "index"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isUserInteractionEnabled"]
+- !private ["Ps9AnyObject", "monthView"]
+- !private ["Ps9AnyObject", "monthViewLocation"]
+- !private ["Ps9AnyObject", "ownerTouchLocation"]
+- !private ["Ps9AnyObject", "performDayViewSingleSelection"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "receiveTouchOnDayView"]
+- !private ["Ps9AnyObject", "spaceBetweenWeekViews"]
+- !private ["Ps9AnyObject", "weekView"]
+- !private ["Ps9AnyObject", "weekViewLocation"]
+- !private ["Ps9AnyObject", "weekViews"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "RawValue"]
+- !private ["PSo15CALayerDelegate", "appearance"]
+- !private ["PSo15CALayerDelegate", "calendarView"]
+- !private ["PSo15CALayerDelegate", "coordinator"]
+- !private ["PSo15CALayerDelegate", "dayViews"]
+- !private ["PSo15CALayerDelegate", "didSelectDayView"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "index"]
+- !private ["PSo15CALayerDelegate", "isUserInteractionEnabled"]
+- !private ["PSo15CALayerDelegate", "monthView"]
+- !private ["PSo15CALayerDelegate", "weekView"]
+- !private ["PSo15CALayerDelegate", "weekViews"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "maxX"]
+- !private ["VSC6CGRect", "maxY"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["C10CVCalendar17CVCalendarDayView", "calendarView"]
+- ["C10CVCalendar17CVCalendarDayView", "deinit"]
+- !private ["C10CVCalendar17CVCalendarDayView", "frame"]
+- !private ["C10CVCalendar17CVCalendarDayView", "isUserInteractionEnabled"]
+- !private ["C10CVCalendar17CVCalendarDayView", "weekView"]
+- ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "deinit"]
+- !private ["C10CVCalendar35CVCalendarDayViewControlCoordinator", "performDayViewSingleSelection"]
+- !private ["C10CVCalendar19CVCalendarMonthView", "calendarView"]
+- ["C10CVCalendar19CVCalendarMonthView", "deinit"]
+- !private ["C10CVCalendar19CVCalendarMonthView", "weekViews"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "Bool"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "CGFloat"]
+- ["C10CVCalendar25CVCalendarTouchController", "CGPoint"]
+- ["C10CVCalendar25CVCalendarTouchController", "CVCalendarDayView"]
+- ["C10CVCalendar25CVCalendarTouchController", "CVCalendarMonthView"]
+- ["C10CVCalendar25CVCalendarTouchController", "CVCalendarWeekView"]
+- ["C10CVCalendar25CVCalendarTouchController", "CVSelectionType"]
+- ["C10CVCalendar25CVCalendarTouchController", "CalendarView"]
+- ["C10CVCalendar25CVCalendarTouchController", "Coordinator"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "DayView"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "calendarView"]
+- ["C10CVCalendar25CVCalendarTouchController", "coordinator"]
+- ["C10CVCalendar25CVCalendarTouchController", "deinit"]
+- ["C10CVCalendar25CVCalendarTouchController", "init"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "monthViewLocation"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "ownerTouchLocation"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "print"]
+- ["C10CVCalendar25CVCalendarTouchController", "receiveTouchLocation"]
+- ["C10CVCalendar25CVCalendarTouchController", "receiveTouchOnDayView"]
+- !private ["C10CVCalendar25CVCalendarTouchController", "weekViewLocation"]
+- !private ["C10CVCalendar14CVCalendarView", "appearance"]
+- !private ["C10CVCalendar14CVCalendarView", "coordinator"]
+- ["C10CVCalendar14CVCalendarView", "deinit"]
+- !private ["C10CVCalendar14CVCalendarView", "didSelectDayView"]
+- !private ["C10CVCalendar24CVCalendarViewAppearance", "deinit"]
+- !private ["C10CVCalendar24CVCalendarViewAppearance", "spaceBetweenWeekViews"]
+- !private ["C10CVCalendar18CVCalendarWeekView", "dayViews"]
+- ["C10CVCalendar18CVCalendarWeekView", "deinit"]
+- !private ["C10CVCalendar18CVCalendarWeekView", "index"]
+- !private ["C10CVCalendar18CVCalendarWeekView", "monthView"]
+- !private ["O10CVCalendar7CVRange", "changed"]
+- !private ["O10CVCalendar7CVRange", "ended"]
+- !private ["O10CVCalendar7CVRange", "started"]
+- ["O10CVCalendar15CVSelectionType", "deinit"]
+- !private ["O10CVCalendar15CVSelectionType", "range"]
+- !private ["O10CVCalendar15CVSelectionType", "single"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "RawValue"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "appearance"]
+- !private ["Ps7CVarArg", "calendarView"]
+- !private ["Ps7CVarArg", "coordinator"]
+- !private ["Ps7CVarArg", "dayViews"]
+- !private ["Ps7CVarArg", "didSelectDayView"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "index"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isUserInteractionEnabled"]
+- !private ["Ps7CVarArg", "monthView"]
+- !private ["Ps7CVarArg", "spaceBetweenWeekViews"]
+- !private ["Ps7CVarArg", "weekView"]
+- !private ["Ps7CVarArg", "weekViews"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "RawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
+- !private ["Ps28CustomDebugStringConvertible", "calendarView"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "dayViews"]
+- !private ["Ps28CustomDebugStringConvertible", "didSelectDayView"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "index"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "maxX"]
+- !private ["Ps28CustomDebugStringConvertible", "maxY"]
+- !private ["Ps28CustomDebugStringConvertible", "monthView"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "spaceBetweenWeekViews"]
+- !private ["Ps28CustomDebugStringConvertible", "weekView"]
+- !private ["Ps28CustomDebugStringConvertible", "weekViews"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "maxX"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "maxY"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "origin"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "maxX"]
+- !private ["Ps17CustomReflectable", "maxY"]
+- !private ["Ps17CustomReflectable", "origin"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "RawValue"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
+- !private ["Ps23CustomStringConvertible", "calendarView"]
+- !private ["Ps23CustomStringConvertible", "coordinator"]
+- !private ["Ps23CustomStringConvertible", "dayViews"]
+- !private ["Ps23CustomStringConvertible", "didSelectDayView"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "index"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps23CustomStringConvertible", "monthView"]
+- !private ["Ps23CustomStringConvertible", "spaceBetweenWeekViews"]
+- !private ["Ps23CustomStringConvertible", "weekView"]
+- !private ["Ps23CustomStringConvertible", "weekViews"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appearance"]
+- !private ["Ps9Equatable", "calendarView"]
+- !private ["Ps9Equatable", "changed"]
+- !private ["Ps9Equatable", "coordinator"]
+- !private ["Ps9Equatable", "dayViews"]
+- !private ["Ps9Equatable", "didSelectDayView"]
+- !private ["Ps9Equatable", "ended"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "index"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isUserInteractionEnabled"]
+- !private ["Ps9Equatable", "maxX"]
+- !private ["Ps9Equatable", "maxY"]
+- !private ["Ps9Equatable", "monthView"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "spaceBetweenWeekViews"]
+- !private ["Ps9Equatable", "started"]
+- !private ["Ps9Equatable", "weekView"]
+- !private ["Ps9Equatable", "weekViews"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appearance"]
+- !private ["Ps8Hashable", "calendarView"]
+- !private ["Ps8Hashable", "changed"]
+- !private ["Ps8Hashable", "coordinator"]
+- !private ["Ps8Hashable", "dayViews"]
+- !private ["Ps8Hashable", "didSelectDayView"]
+- !private ["Ps8Hashable", "ended"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "index"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isUserInteractionEnabled"]
+- !private ["Ps8Hashable", "monthView"]
+- !private ["Ps8Hashable", "spaceBetweenWeekViews"]
+- !private ["Ps8Hashable", "started"]
+- !private ["Ps8Hashable", "weekView"]
+- !private ["Ps8Hashable", "weekViews"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["PSo8NSCoding", "RawValue"]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "calendarView"]
+- !private ["PSo8NSCoding", "coordinator"]
+- !private ["PSo8NSCoding", "dayViews"]
+- !private ["PSo8NSCoding", "didSelectDayView"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["PSo8NSCoding", "index"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isUserInteractionEnabled"]
+- !private ["PSo8NSCoding", "monthView"]
+- !private ["PSo8NSCoding", "weekView"]
+- !private ["PSo8NSCoding", "weekViews"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "RawValue"]
+- !private ["CSo8NSObject", "appearance"]
+- !private ["CSo8NSObject", "calendarView"]
+- !private ["CSo8NSObject", "coordinator"]
+- !private ["CSo8NSObject", "dayViews"]
+- !private ["CSo8NSObject", "didSelectDayView"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "index"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isUserInteractionEnabled"]
+- !private ["CSo8NSObject", "monthView"]
+- !private ["CSo8NSObject", "spaceBetweenWeekViews"]
+- !private ["CSo8NSObject", "weekView"]
+- !private ["CSo8NSObject", "weekViews"]
+- !private ["PSo16NSObjectProtocol", "RawValue"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- !private ["PSo16NSObjectProtocol", "calendarView"]
+- !private ["PSo16NSObjectProtocol", "coordinator"]
+- !private ["PSo16NSObjectProtocol", "dayViews"]
+- !private ["PSo16NSObjectProtocol", "didSelectDayView"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "index"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isUserInteractionEnabled"]
+- !private ["PSo16NSObjectProtocol", "monthView"]
+- !private ["PSo16NSObjectProtocol", "spaceBetweenWeekViews"]
+- !private ["PSo16NSObjectProtocol", "weekView"]
+- !private ["PSo16NSObjectProtocol", "weekViews"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "RawValue"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "calendarView"]
+- !private ["PSo29UIAccessibilityIdentification", "coordinator"]
+- !private ["PSo29UIAccessibilityIdentification", "dayViews"]
+- !private ["PSo29UIAccessibilityIdentification", "didSelectDayView"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "index"]
+- !private ["PSo29UIAccessibilityIdentification", "isUserInteractionEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "monthView"]
+- !private ["PSo29UIAccessibilityIdentification", "weekView"]
+- !private ["PSo29UIAccessibilityIdentification", "weekViews"]
+- !private ["PSo12UIAppearance", "RawValue"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "calendarView"]
+- !private ["PSo12UIAppearance", "coordinator"]
+- !private ["PSo12UIAppearance", "dayViews"]
+- !private ["PSo12UIAppearance", "didSelectDayView"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "index"]
+- !private ["PSo12UIAppearance", "isUserInteractionEnabled"]
+- !private ["PSo12UIAppearance", "monthView"]
+- !private ["PSo12UIAppearance", "weekView"]
+- !private ["PSo12UIAppearance", "weekViews"]
+- !private ["PSo21UIAppearanceContainer", "RawValue"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "calendarView"]
+- !private ["PSo21UIAppearanceContainer", "coordinator"]
+- !private ["PSo21UIAppearanceContainer", "dayViews"]
+- !private ["PSo21UIAppearanceContainer", "didSelectDayView"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "index"]
+- !private ["PSo21UIAppearanceContainer", "isUserInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "monthView"]
+- !private ["PSo21UIAppearanceContainer", "weekView"]
+- !private ["PSo21UIAppearanceContainer", "weekViews"]
+- !private ["PSo17UICoordinateSpace", "RawValue"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "calendarView"]
+- !private ["PSo17UICoordinateSpace", "coordinator"]
+- !private ["PSo17UICoordinateSpace", "dayViews"]
+- !private ["PSo17UICoordinateSpace", "didSelectDayView"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "index"]
+- !private ["PSo17UICoordinateSpace", "isUserInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "monthView"]
+- !private ["PSo17UICoordinateSpace", "weekView"]
+- !private ["PSo17UICoordinateSpace", "weekViews"]
+- !private ["PSo13UIDynamicItem", "RawValue"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "calendarView"]
+- !private ["PSo13UIDynamicItem", "coordinator"]
+- !private ["PSo13UIDynamicItem", "dayViews"]
+- !private ["PSo13UIDynamicItem", "didSelectDayView"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "index"]
+- !private ["PSo13UIDynamicItem", "isUserInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "monthView"]
+- !private ["PSo13UIDynamicItem", "weekView"]
+- !private ["PSo13UIDynamicItem", "weekViews"]
+- !private ["PSo18UIFocusEnvironment", "RawValue"]
+- !private ["PSo18UIFocusEnvironment", "appearance"]
+- !private ["PSo18UIFocusEnvironment", "calendarView"]
+- !private ["PSo18UIFocusEnvironment", "coordinator"]
+- !private ["PSo18UIFocusEnvironment", "dayViews"]
+- !private ["PSo18UIFocusEnvironment", "didSelectDayView"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "index"]
+- !private ["PSo18UIFocusEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "monthView"]
+- !private ["PSo18UIFocusEnvironment", "weekView"]
+- !private ["PSo18UIFocusEnvironment", "weekViews"]
+- !private ["PSo11UIFocusItem", "RawValue"]
+- !private ["PSo11UIFocusItem", "appearance"]
+- !private ["PSo11UIFocusItem", "calendarView"]
+- !private ["PSo11UIFocusItem", "coordinator"]
+- !private ["PSo11UIFocusItem", "dayViews"]
+- !private ["PSo11UIFocusItem", "didSelectDayView"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "index"]
+- !private ["PSo11UIFocusItem", "isUserInteractionEnabled"]
+- !private ["PSo11UIFocusItem", "monthView"]
+- !private ["PSo11UIFocusItem", "weekView"]
+- !private ["PSo11UIFocusItem", "weekViews"]
+- !private ["CSo11UIResponder", "RawValue"]
+- !private ["CSo11UIResponder", "appearance"]
+- !private ["CSo11UIResponder", "calendarView"]
+- !private ["CSo11UIResponder", "coordinator"]
+- !private ["CSo11UIResponder", "dayViews"]
+- !private ["CSo11UIResponder", "deinit"]
+- !private ["CSo11UIResponder", "didSelectDayView"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["CSo11UIResponder", "index"]
+- !private ["CSo11UIResponder", "isUserInteractionEnabled"]
+- !private ["CSo11UIResponder", "monthView"]
+- !private ["CSo11UIResponder", "weekView"]
+- !private ["CSo11UIResponder", "weekViews"]
+- !private ["PSo30UIResponderStandardEditActions", "RawValue"]
+- !private ["PSo30UIResponderStandardEditActions", "appearance"]
+- !private ["PSo30UIResponderStandardEditActions", "calendarView"]
+- !private ["PSo30UIResponderStandardEditActions", "coordinator"]
+- !private ["PSo30UIResponderStandardEditActions", "dayViews"]
+- !private ["PSo30UIResponderStandardEditActions", "didSelectDayView"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "index"]
+- !private ["PSo30UIResponderStandardEditActions", "isUserInteractionEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "monthView"]
+- !private ["PSo30UIResponderStandardEditActions", "weekView"]
+- !private ["PSo30UIResponderStandardEditActions", "weekViews"]
+- !private ["PSo18UITraitEnvironment", "RawValue"]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "calendarView"]
+- !private ["PSo18UITraitEnvironment", "coordinator"]
+- !private ["PSo18UITraitEnvironment", "dayViews"]
+- !private ["PSo18UITraitEnvironment", "didSelectDayView"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "index"]
+- !private ["PSo18UITraitEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UITraitEnvironment", "monthView"]
+- !private ["PSo18UITraitEnvironment", "weekView"]
+- !private ["PSo18UITraitEnvironment", "weekViews"]
+- !private ["CSo6UIView", "RawValue"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "calendarView"]
+- !private ["CSo6UIView", "coordinator"]
+- !private ["CSo6UIView", "dayViews"]
+- !private ["CSo6UIView", "didSelectDayView"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "index"]
+- !private ["CSo6UIView", "isUserInteractionEnabled"]
+- !private ["CSo6UIView", "monthView"]
+- !private ["CSo6UIView", "weekView"]
+- !private ["CSo6UIView", "weekViews"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RawValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "appearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "calendarView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "coordinator"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dayViews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "didSelectDayView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "index"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isUserInteractionEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "monthView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "weekView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "weekViews"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "appearance"]
+- !private ["Ps9_Hashable", "calendarView"]
+- !private ["Ps9_Hashable", "changed"]
+- !private ["Ps9_Hashable", "coordinator"]
+- !private ["Ps9_Hashable", "dayViews"]
+- !private ["Ps9_Hashable", "didSelectDayView"]
+- !private ["Ps9_Hashable", "ended"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "index"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isUserInteractionEnabled"]
+- !private ["Ps9_Hashable", "monthView"]
+- !private ["Ps9_Hashable", "spaceBetweenWeekViews"]
+- !private ["Ps9_Hashable", "started"]
+- !private ["Ps9_Hashable", "weekView"]
+- !private ["Ps9_Hashable", "weekViews"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "maxX"]
+- !private ["Ps21_ObjectiveCBridgeable", "maxY"]
+- !private ["Ps21_ObjectiveCBridgeable", "origin"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "C10CVCalendar17CVCalendarDayView"
+- "C10CVCalendar35CVCalendarDayViewControlCoordinator"
+- "C10CVCalendar19CVCalendarMonthView"
+- "C10CVCalendar25CVCalendarTouchController"
+- "C10CVCalendar14CVCalendarView"
+- !private "C10CVCalendar24CVCalendarViewAppearance"
+- "C10CVCalendar18CVCalendarWeekView"
+- !private "O10CVCalendar7CVRange"
+- "O10CVCalendar15CVSelectionType"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "b8d5c961057294062314e4ff37867676"

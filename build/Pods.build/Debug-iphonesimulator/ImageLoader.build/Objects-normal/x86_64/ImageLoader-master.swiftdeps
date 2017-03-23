@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "d93298a24e9810f1a8a3d58a26c7e1b5"
+build_time: [538330241, 897381000]
+inputs:
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/Disk.swift": !dirty [538329165, 0]
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/ImageLoader.swift": !dirty [538329165, 0]
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/Loader.swift": !dirty [538329165, 0]
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/Manager.swift": !dirty [538329165, 0]
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/UIImage+ImageLoader.swift": !dirty [538329165, 0]
+  "/Users/prang/Desktop/AppDontForget 2/Pods/ImageLoader/ImageLoader/UIImageView+ImageLoader.swift": !dirty [538329165, 0]

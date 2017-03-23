@@ -6,156 +6,290 @@ provides-nominal:
 provides-member:
 - ["C13AppDontForget19LoginViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
-- "preferredStatusBarStyle"
+- "passwordTF"
+- "loginAction"
+- "unwind"
+- "emailTF"
 - "viewDidLoad"
 depends-top-level:
 - "UIViewController"
-- "UIStatusBarStyle"
+- "NetworkService"
+- "AkiraTextField"
+- "UIStoryboardSegue"
 - "LoginViewController"
 depends-member:
-- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["C13AppDontForget14AkiraTextField", "deinit"]
+- !private ["C13AppDontForget14AkiraTextField", "text"]
+- ["Ps9AnyObject", "NetworkService"]
+- ["Ps9AnyObject", "emailTF"]
 - !private ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", "preferredStatusBarStyle"]
+- ["Ps9AnyObject", "loginAction"]
+- ["Ps9AnyObject", "networkingService"]
+- ["Ps9AnyObject", "passwordTF"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "unwind"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
-- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["Ps7CVarArg", "NetworkService"]
+- ["Ps7CVarArg", "emailTF"]
 - !private ["Ps7CVarArg", "init"]
-- ["Ps7CVarArg", "preferredStatusBarStyle"]
+- ["Ps7CVarArg", "loginAction"]
+- ["Ps7CVarArg", "networkingService"]
+- ["Ps7CVarArg", "passwordTF"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "unwind"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
-- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "NetworkService"]
+- ["Ps28CustomDebugStringConvertible", "emailTF"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", "preferredStatusBarStyle"]
+- ["Ps28CustomDebugStringConvertible", "loginAction"]
+- ["Ps28CustomDebugStringConvertible", "networkingService"]
+- ["Ps28CustomDebugStringConvertible", "passwordTF"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "unwind"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "NetworkService"]
+- ["Ps23CustomStringConvertible", "emailTF"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", "preferredStatusBarStyle"]
+- ["Ps23CustomStringConvertible", "loginAction"]
+- ["Ps23CustomStringConvertible", "networkingService"]
+- ["Ps23CustomStringConvertible", "passwordTF"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "unwind"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
-- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "NetworkService"]
+- ["Ps9Equatable", "emailTF"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "lightContent"]
-- ["Ps9Equatable", "preferredStatusBarStyle"]
+- ["Ps9Equatable", "loginAction"]
+- ["Ps9Equatable", "networkingService"]
+- ["Ps9Equatable", "passwordTF"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "unwind"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
-- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "NetworkService"]
+- ["Ps8Hashable", "emailTF"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "lightContent"]
-- ["Ps8Hashable", "preferredStatusBarStyle"]
+- ["Ps8Hashable", "loginAction"]
+- ["Ps8Hashable", "networkingService"]
+- ["Ps8Hashable", "passwordTF"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "unwind"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
-- ["C13AppDontForget19LoginViewController", "UIStatusBarStyle"]
+- ["SQ", "deinit"]
+- ["C13AppDontForget19LoginViewController", "AkiraTextField"]
+- ["C13AppDontForget19LoginViewController", "NetworkService"]
+- ["C13AppDontForget19LoginViewController", "UIStoryboardSegue"]
 - ["C13AppDontForget19LoginViewController", "deinit"]
-- ["C13AppDontForget19LoginViewController", "didReceiveMemoryWarning"]
+- ["C13AppDontForget19LoginViewController", "emailTF"]
 - ["C13AppDontForget19LoginViewController", "init"]
-- ["C13AppDontForget19LoginViewController", "preferredStatusBarStyle"]
+- ["C13AppDontForget19LoginViewController", "loginAction"]
+- ["C13AppDontForget19LoginViewController", "networkingService"]
+- ["C13AppDontForget19LoginViewController", "passwordTF"]
+- ["C13AppDontForget19LoginViewController", "unwind"]
 - ["C13AppDontForget19LoginViewController", "viewDidLoad"]
 - ["CSo7NSCoder", "deinit"]
-- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "NetworkService"]
+- ["PSo8NSCoding", "emailTF"]
 - !private ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", "preferredStatusBarStyle"]
+- ["PSo8NSCoding", "loginAction"]
+- ["PSo8NSCoding", "networkingService"]
+- ["PSo8NSCoding", "passwordTF"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "unwind"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "NetworkService"]
+- ["PSo26NSExtensionRequestHandling", "emailTF"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- ["PSo26NSExtensionRequestHandling", "preferredStatusBarStyle"]
+- ["PSo26NSExtensionRequestHandling", "loginAction"]
+- ["PSo26NSExtensionRequestHandling", "networkingService"]
+- ["PSo26NSExtensionRequestHandling", "passwordTF"]
+- ["PSo26NSExtensionRequestHandling", "unwind"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- ["CSo8NSObject", "UIStatusBarStyle"]
-- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "AkiraTextField"]
+- ["CSo8NSObject", "NetworkService"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "emailTF"]
 - ["CSo8NSObject", "init"]
-- ["CSo8NSObject", "preferredStatusBarStyle"]
+- ["CSo8NSObject", "loginAction"]
+- ["CSo8NSObject", "networkingService"]
+- ["CSo8NSObject", "passwordTF"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "unwind"]
 - ["CSo8NSObject", "viewDidLoad"]
-- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "NetworkService"]
+- ["PSo16NSObjectProtocol", "emailTF"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", "preferredStatusBarStyle"]
+- ["PSo16NSObjectProtocol", "loginAction"]
+- ["PSo16NSObjectProtocol", "networkingService"]
+- ["PSo16NSObjectProtocol", "passwordTF"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "unwind"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- ["V13AppDontForget14NetworkService", "deinit"]
+- ["V13AppDontForget14NetworkService", "init"]
+- !private ["V13AppDontForget14NetworkService", "signIn"]
 - ["Sq", "deinit"]
-- !private ["Ps16RawRepresentable", "lightContent"]
-- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["C13AppDontForget16TextFieldEffects", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "NetworkService"]
+- ["PSo21UIAppearanceContainer", "emailTF"]
 - !private ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", "preferredStatusBarStyle"]
+- ["PSo21UIAppearanceContainer", "loginAction"]
+- ["PSo21UIAppearanceContainer", "networkingService"]
+- ["PSo21UIAppearanceContainer", "passwordTF"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "unwind"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
-- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "NetworkService"]
+- ["PSo18UIContentContainer", "emailTF"]
 - !private ["PSo18UIContentContainer", "init"]
-- ["PSo18UIContentContainer", "preferredStatusBarStyle"]
+- ["PSo18UIContentContainer", "loginAction"]
+- ["PSo18UIContentContainer", "networkingService"]
+- ["PSo18UIContentContainer", "passwordTF"]
+- ["PSo18UIContentContainer", "unwind"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "NetworkService"]
+- ["PSo18UIFocusEnvironment", "emailTF"]
 - !private ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UIFocusEnvironment", "loginAction"]
+- ["PSo18UIFocusEnvironment", "networkingService"]
+- ["PSo18UIFocusEnvironment", "passwordTF"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "unwind"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
-- ["CSo11UIResponder", "UIStatusBarStyle"]
-- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AkiraTextField"]
+- ["CSo11UIResponder", "NetworkService"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "emailTF"]
 - ["CSo11UIResponder", "init"]
-- ["CSo11UIResponder", "preferredStatusBarStyle"]
+- ["CSo11UIResponder", "loginAction"]
+- ["CSo11UIResponder", "networkingService"]
+- ["CSo11UIResponder", "passwordTF"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "unwind"]
 - ["CSo11UIResponder", "viewDidLoad"]
-- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "NetworkService"]
+- ["PSo30UIResponderStandardEditActions", "emailTF"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- ["PSo30UIResponderStandardEditActions", "preferredStatusBarStyle"]
+- ["PSo30UIResponderStandardEditActions", "loginAction"]
+- ["PSo30UIResponderStandardEditActions", "networkingService"]
+- ["PSo30UIResponderStandardEditActions", "passwordTF"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "unwind"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
-- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "NetworkService"]
+- ["PSo16UIStateRestoring", "emailTF"]
 - !private ["PSo16UIStateRestoring", "init"]
-- ["PSo16UIStateRestoring", "preferredStatusBarStyle"]
+- ["PSo16UIStateRestoring", "loginAction"]
+- ["PSo16UIStateRestoring", "networkingService"]
+- ["PSo16UIStateRestoring", "passwordTF"]
+- ["PSo16UIStateRestoring", "unwind"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
-- ["OSC16UIStatusBarStyle", "deinit"]
-- !private ["OSC16UIStatusBarStyle", "lightContent"]
-- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "NetworkService"]
+- ["PSo18UITraitEnvironment", "emailTF"]
 - !private ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UITraitEnvironment", "loginAction"]
+- ["PSo18UITraitEnvironment", "networkingService"]
+- ["PSo18UITraitEnvironment", "passwordTF"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "unwind"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- ["CSo16UIViewController", "UIStatusBarStyle"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AkiraTextField"]
+- ["CSo16UIViewController", "NetworkService"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "deinit"]
-- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "emailTF"]
 - ["CSo16UIViewController", "init"]
-- ["CSo16UIViewController", "preferredStatusBarStyle"]
+- ["CSo16UIViewController", "loginAction"]
+- ["CSo16UIViewController", "networkingService"]
+- ["CSo16UIViewController", "passwordTF"]
+- ["CSo16UIViewController", "unwind"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
-- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps9_Hashable", "NetworkService"]
+- ["Ps9_Hashable", "emailTF"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "lightContent"]
-- ["Ps9_Hashable", "preferredStatusBarStyle"]
+- ["Ps9_Hashable", "loginAction"]
+- ["Ps9_Hashable", "networkingService"]
+- ["Ps9_Hashable", "passwordTF"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "unwind"]
 - ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
 depends-nominal:
+- !private "C13AppDontForget14AkiraTextField"
 - "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - "Ps8Hashable"
+- "SQ"
 - "C13AppDontForget19LoginViewController"
 - "CSo7NSCoder"
 - "PSo8NSCoding"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- "V13AppDontForget14NetworkService"
 - "Sq"
-- !private "Ps16RawRepresentable"
+- !private "C13AppDontForget16TextFieldEffects"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "PSo16UIStateRestoring"
-- "OSC16UIStatusBarStyle"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/prang/Desktop/AppDontForget/AppDontForget/AppDontForget-Bridging-Header.h"
-- "/Users/prang/Desktop/AppDontForget/AppDontForget/ProgressHUD.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/Firebase/Headers/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/AppDontForget-Bridging-Header.h"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/MGSwipeTableCell.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
@@ -164,58 +298,67 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/AppDontForget/MGSwipeButton.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
-- "/Users/prang/Desktop/AppDontForget/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
-- "/Users/prang/Desktop/AppDontForget/Pods/Firebase/Headers/Firebase.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/prang/Desktop/AppDontForget2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Firebase/Core/Sources/Firebase.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-interface-hash: "22313c25ff0a2452ae2508371f8d621f"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+interface-hash: "62fccae62dbc2fa98d1e200ceaa59ba1"

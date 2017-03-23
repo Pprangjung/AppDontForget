@@ -1,0 +1,100 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CVCalendarViewDelegate"
+provides-nominal:
+- "P10CVCalendar22CVCalendarViewDelegate"
+provides-member:
+- ["P10CVCalendar22CVCalendarViewDelegate", ""]
+provides-dynamic-lookup:
+- "preliminaryView"
+- "preliminaryView"
+- "didSelectDayView"
+- "didShowNextMonthView"
+- "calendar"
+- "topMarker"
+- "firstWeekday"
+- "presentationMode"
+- "shouldAutoSelectDayOnWeekChange"
+- "shouldAutoSelectDayOnMonthChange"
+- "toggleDateAnimationDuration"
+- "shouldSelectDayView"
+- "shouldScrollOnOutDayViewSelection"
+- "supplementaryView"
+- "supplementaryView"
+- "shouldShowCustomSingleSelection"
+- "didShowPreviousMonthView"
+- "shouldShowWeekdaysOut"
+- "shouldAnimateResizing"
+- "dotMarker"
+- "dotMarker"
+- "dotMarker"
+- "dotMarker"
+- "dotMarker"
+- "presentedDateUpdated"
+- "selectionViewPath"
+depends-top-level:
+- "CalendarMode"
+- "CGRect"
+- "UIView"
+- "Weekday"
+- "DayView"
+- "Bool"
+- "Foundation"
+- "UIBezierPath"
+- "CVCalendarViewDelegate"
+- "CGFloat"
+- "Calendar"
+- "Double"
+- "CVDate"
+- "UIColor"
+depends-member:
+- ["P10CVCalendar22CVCalendarViewDelegate", "Bool"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "CGFloat"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "CGRect"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "CVDate"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "Calendar"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "CalendarMode"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "DayView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "Double"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "Foundation"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "UIBezierPath"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "UIColor"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "UIView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "Weekday"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "calendar"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "didSelectDayView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "didShowNextMonthView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "didShowPreviousMonthView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "dotMarker"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "firstWeekday"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "preliminaryView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "presentationMode"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "presentedDateUpdated"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "selectionViewPath"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldAnimateResizing"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldAutoSelectDayOnMonthChange"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldAutoSelectDayOnWeekChange"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldScrollOnOutDayViewSelection"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldSelectDayView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldShowCustomSingleSelection"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "shouldShowWeekdaysOut"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "supplementaryView"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "toggleDateAnimationDuration"]
+- ["P10CVCalendar22CVCalendarViewDelegate", "topMarker"]
+depends-nominal:
+- "P10CVCalendar22CVCalendarViewDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/prang/Desktop/AppDontForget2/Pods/Target Support Files/CVCalendar/CVCalendar-umbrella.h"
+- "/Users/prang/Desktop/AppDontForget2/build/Pods.build/Debug-iphonesimulator/CVCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8187c50bfd8868d717bea72cc04a2da0"
